@@ -15,7 +15,7 @@ a3 += "a"
  So if we wanted to add the numbers from 1 to n together it would look like this.
  \
  */
-var n = 10
+var n = 50
 var sum = 0
 for i in 1...n {
     sum += i
@@ -59,12 +59,19 @@ sum
 sum = 0
 var i = 1
 sum += i
-i = 2
+i = i + 1
 sum += i
 /*:
- And so on... 
- 
- ---
+ - Note: 
+ Each single go-through of a loop is called an interation. 
+ \
+ In this example each iteration contains: 
+ ````
+ i = i + 1
+ sum += i 
+ ````
+ */
+/*:
  There are other kinds of loops too. 
  ````
  while (condition) {
@@ -100,4 +107,4 @@ if a == 0 {
  \
  Once we hit that condition it is a simple if-statement to check if the number is even or odd.
  */
-//: [Next - @todo](@next)
+//: [Next - Arrays](@next)

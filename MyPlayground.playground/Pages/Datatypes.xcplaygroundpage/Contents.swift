@@ -31,9 +31,9 @@ var a = 10
 var b:Int = 3
 
 /*:
- In this example, we defined `b` as an `Integer`. While Swift would have come to this conclusion on it's own, knowing the `Datatype` of a variable can be quite useful.
+ In this example, we defined `b` as an `Integer`. While Swift would have come to this conclusion on its own, knowing the `Datatype` of a variable can be quite useful.
  \
- The Basic, also called Primitive, `Datatypes` are `Int`, `Double`, `Character`, `String`, and `Bool`. For now we will work with `Int` and `Doubles`.
+ The Basic, also called Primitive, `Datatypes` are `Int`, `Double`, `Character`, `String`, and `Bool`. For now we will work with `Ints` and `Doubles`.
  \
  \
  When defining a `Double` we need to make sure there is a decimal point in the number.

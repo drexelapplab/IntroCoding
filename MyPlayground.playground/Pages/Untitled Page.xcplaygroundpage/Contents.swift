@@ -4,46 +4,45 @@ import Cocoa
  ## Welcome to your playground
  
  ---
- This is how you create a Variable in your playground.
+ Imagine that I ask you to remember the number 5. Now remember my name, "John". Now remember the number 7. What is the first number I asked you to remember times 2? what is that number plus the second number I gave you? 
+ \
+ As you can see, managing all of this information can get complicated very fast. Computers, on the other hand, are built to do this(so we don't have too!).
+ \
+ If we want to have a computer remember something for us, we need to create a variable. A variable is a peice of memory that contains something. 
+ \
+ We tell a computer to do this with this instruction.
  \
  `var (name) = (value)`
  \
-a variable can be named anything with letters and/or numbers in it. such as
+ What this tells the computer to do is "remember (name) whose value is (value)". 
  \
- `var arms = 2`
+ Now, if we want to ask the computer for the value all we need to do is use the name. 
  \
- or 
- \
- `var pet = "dog"`
- \
- The value, as you can see, can be any number or a word/phrase surrounded in "quotes".
- \
- Variable names cannot include 
- - whitespace characters, such as " ".
- - mathematical symbols
- - arrows
- 
- ---
- Lets start by making some Variables in the space below.
+ `(name)`
  */
 var age = 32
 var name = "John"
-
+age
+name
 /*:
- Variables are called 'variable' for a reason; we can change them.
+ We can also tell to computer to change a variable.
  */
 age = 33
-/*: 
- If we want to create a temporary value, also called a literal(think "literally this"), we would define it as 
+/*:
+ - Note:
+ to help the computer out, make sure variable names do not include
  \
- `33` or `"John"`
+  whitespace characters, such as " "
  \
- The difference between literals and variables is that literals are for one-time use and variables can be used repeatedly.
+  mathematical symbols
  \
- So when we make a variable, we assign it's value to a literal.
+  arrows
+ \
+  or start with numbers
  */
-33
-"John"
+/*:
+ Here are a few examples
+ */
 /*:
  when you are ready to continue, press [Next](@next).
  */
