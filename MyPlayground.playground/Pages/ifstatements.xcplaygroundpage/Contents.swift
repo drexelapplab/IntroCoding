@@ -57,4 +57,4 @@ if (a < b){
 } else {
     c = "\(a) == \(b)"
 }
-//: [Next - Loops](@next)
+//: [Next](@next)

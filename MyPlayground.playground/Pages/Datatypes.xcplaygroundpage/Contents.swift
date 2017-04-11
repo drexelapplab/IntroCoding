@@ -62,5 +62,5 @@ pi
  \
  Casting does not change the actual variable but the expression of it we are using.
  \
- [Next - Math in Swift](@next)
+ [Next](@next)
  */

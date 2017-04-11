@@ -64,5 +64,5 @@ abs (-10)
 abs (0)
 
 /*:
- [Next - More Uses for Functions](@next)
+ [Next](@next)
  */

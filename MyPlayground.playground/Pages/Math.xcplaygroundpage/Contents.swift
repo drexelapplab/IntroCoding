@@ -41,5 +41,5 @@ Double (a / b)
  `Double (a / b)` = 3 because the decimal is lost before casting.
  */
 /*:
- [Next - Compound Statements and Assignments](@next)
+ [Next](@next)
  */

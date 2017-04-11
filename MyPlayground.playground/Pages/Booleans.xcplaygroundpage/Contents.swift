@@ -67,4 +67,4 @@ noHandleBars || ready
  */
 var hasBike = true
 ready || (hasBike && noHandleBars)
-//: [Next - If Statements](@next)
+//: [Next](@next)

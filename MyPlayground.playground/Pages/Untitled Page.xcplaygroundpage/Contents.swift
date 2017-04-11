@@ -25,7 +25,7 @@ var name = "John"
 age
 name
 /*:
- We can also tell to computer to change a variable.
+ We can also tell the to computer to change a variable.
  */
 age = 33
 /*:

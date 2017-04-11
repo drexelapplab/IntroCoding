@@ -107,4 +107,4 @@ if a == 0 {
  \
  Once we hit that condition it is a simple if-statement to check if the number is even or odd.
  */
-//: [Next - Arrays](@next)
+//: [Next](@next)

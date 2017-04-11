@@ -54,4 +54,4 @@ listOfPeople
  The trick to this loop is actaully the if-statement. Because there should not be a ", " at the end, we need a case that stopped the last iteration from appending ", " to the string.
  */
 
-//: [Next - Functions](@next)
+//: [Next](@next)
