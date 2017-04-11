@@ -14,44 +14,43 @@ var name4 = "Fred"
 /*:
  Having to type out a variable for each name is tedious. No one wants to do that. Luckily, There is another way to do this.
  */
-var names = [name1, name2, name3, name4];
+var names = [name1, name2, name3, name4]
 /*:
- Now we have all the names in one variable called an `array`.
+ Now we have all the names in one big `variable` called an `array`.
  \
- We can access a specific name by using `(array)[index]` operator, also called a `subscript`.
+ An `array` is a collection of `variables`. An individual `variable` inside an `array` is also called an `element`.
+ \
+ You create an array similar to a variable, you just need to surround the `value` in `[brackets]`.
+ \
+ ````
+ var numbers = [1, 2, 3, 4]
+ ````
+ \
+ You can access each `element` inside an array with the following command. `array[index]`.
  */
 names[0]
 /*:
  - Note:
- Indexing starts at 0. so the first element is at `[0]` and the second element is at `[1]` and so on... 
+ Indexing starts at 0. so the first element is at `[0]` and the second `element` is at `[1]` and so on...
  \
- The most common mistake made with `arrays `is forgetting that indexes start at 0.
+ The most common mistake made with `arrays` is forgetting that indexes start at 0.
  */
 /*:
- We can do some cool things with arrays.
+ There is also a way to find out how many elements are inside an array.
  */
-var ages:[Int] = [33, 31, 21, 40]
-var listOfPeople:String = ""
-for i in 0...ages.count-1 {
-    listOfPeople += "\(names[i]): \(ages[i])"
-    if i < ages.count - 1 {
-        listOfPeople += ", "
-    }
+names.count
+/*:
+ So if we want to put every name in `names` into a string, it would look like this.
+ */
+var listOfPeople = ""
+for i in 0...names.count-1 {
+    listOfPeople += "\(names[i]) "
 }
 listOfPeople
 /*:
- `ages.count`: Just like with `Strings`, we can have swift count the number of elements in them. 
- \
- Although, because there are 4 elements and indexing starts at 0, we need a range from 0...(n-1). 
- \
- The form above is the one standardly used, but this also works. 
- ````
- for i from 1 to ages.count {
-    names[i - 1] 
- }
- ````
- \
- The trick to this loop is actaully the if-statement. Because there should not be a ", " at the end, we need a case that stopped the last iteration from appending ", " to the string.
+ - Note:
+ The range we are using is `0...names.count-1` because array indexing starts at 0.
  */
-
-//: [Next](@next)
+/*:
+ [Next](@next)
+ */

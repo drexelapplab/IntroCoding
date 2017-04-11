@@ -6,14 +6,15 @@ import Foundation
  ---
  Lets say we want to something a more than once. We could write the same line of code until we do it the number of times we want.
  */
-var a3 = "a"
-a3 += "a"
-a3 += "a"
+var sumOfNumbersFrom1To5 = 1
+sumOfNumbersFrom1To5 += 2
+sumOfNumbersFrom1To5 += 3
+sumOfNumbersFrom1To5 += 4
+sumOfNumbersFrom1To5 += 5
 /*:
- This can get tiring to write over and over again. Also, what if we don't know how many times we should repeat the process going into it. 
+ It can get tiring to write the same line of code over and over again. We also might not know how many times we want to do something.
  \
- So if we wanted to add the numbers from 1 to n together it would look like this.
- \
+ So if we wanted to add up the numbers from `1 to n`, it would look like this.
  */
 var n = 50
 var sum = 0
@@ -82,14 +83,17 @@ sum += i
  \
  this kind of loop is best when you are repeating a simple line of code an unknown amount of times.
  */
-var isEven:Bool = false
+var isEven:Bool
 var a = 460
 while a > 1 {
     a -= 2
 }
 if a == 0 {
     isEven = true
+} else {
+    isEven = false
 }
+isEven
 /*:
  Here is an example of a while loop. 
  \

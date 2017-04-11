@@ -24,7 +24,5 @@ var y = 7
 var a = <#Bool#>
 var b = <#Bool#>
 !(!a && !(a || b))
-//:is there a shorter way to write the above expression?
-
 
 //: [Next](@next)

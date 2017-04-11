@@ -20,10 +20,10 @@ var d = (c + a) / b
 /*: 
  We can combine assignments and arithmetic.
  ````
- (x += y) -> (x = x + y)
- (x -= y) -> (x = x - y)
- (x *= y) -> (x = x * y)
- (x /= y) -> (x = x / y)
+ (x += y) => (x = x + y)
+ (x -= y) => (x = x - y)
+ (x *= y) => (x = x * y)
+ (x /= y) => (x = x / y)
  ````
  */
 a /= c

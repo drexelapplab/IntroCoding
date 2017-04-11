@@ -4,9 +4,9 @@ import Foundation
  # If Statements 
  
  ---
- If statements are the core of programming. 
+ If-statements are the core of programming.
  \
- Every program can be written in only If-Statements.
+ Every program can be written in only if-statements.
  ````
  if (condition) {
     (code)
@@ -21,14 +21,14 @@ if (b > a) {
 }
 
 /*:
- The if-statement reads: if (b > a) then {c = "\(b) > \(a)"}
+ The if-statement reads: if (b > a) then {c = "\\(b) > \\(a)"}
  \
  If we want to do something when the condition is false, then we need to add an `else`.
  ````
  if (condition) {
- (code)
+    (code)
  } else {
- (code)
+    (code)
  }
  ````
  */

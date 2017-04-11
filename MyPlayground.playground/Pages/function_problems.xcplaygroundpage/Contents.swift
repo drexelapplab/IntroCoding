@@ -10,7 +10,9 @@ var numbers1 = [64, 77, 52, 37, 22, 49, 20, 69, 79, 11]
 var numbers2 = [86, 31, 2, 31, 90, 9, 13, 41, 87, 29]
 /*:
  ## Problem 1
- Write a function that finds the smallest(min) value in `numbers0`, `numbers1`, `numbers2`.
+ Write a function that finds the smallest(min) value in an `array`.
+ \
+ calculate the smallest values of `numbers0`, `numbers1`, `numbers2`.
  \
  `min (array: numbers0) -> 15`
  \
@@ -21,7 +23,9 @@ var numbers2 = [86, 31, 2, 31, 90, 9, 13, 41, 87, 29]
 
 /*:
  ## Problem 2
- Write a function that finds the average value in `numbers0`, `numbers1`, `numbers2`.
+ Write a function that finds the average value in an `array`.
+ \
+ calculate the averages for `numbers0`, `numbers1`, `numbers2`.
  \
  `avg (array: numbers0) -> 57`
  \
