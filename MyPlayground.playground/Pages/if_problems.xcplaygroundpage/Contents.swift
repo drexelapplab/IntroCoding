@@ -20,7 +20,7 @@ var age = <#your age#>
  \
  `F` for 59 and below
  */
- var grade:String
+ var letterGrade:String
  var score = 85
 
 

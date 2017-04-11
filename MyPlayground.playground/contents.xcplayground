@@ -22,5 +22,9 @@
         <page name='simp_function_problems'/>
         <page name='More_functions'/>
         <page name='function_problems'/>
+        <page name='Classes'/>
+        <page name='classes_problem_1'/>
+        <page name='Functions_in_classes_1'/>
+        <page name='functions_classes_problems_1'/>
     </pages>
 </playground>

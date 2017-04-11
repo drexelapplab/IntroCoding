@@ -23,7 +23,7 @@ if (b > a) {
 /*:
  The if-statement reads: if (b > a) then {c = "\\(b) > \\(a)"}
  \
- If we want to do something when the condition is false, then we need to add an `else`.
+ If we want to do something when the condition is `false`, then we need to add an `else`.
  ````
  if (condition) {
     (code)
@@ -38,7 +38,7 @@ if (a == b) {
     c = "\(a) != \(b)"
 }
 /*:
- We can actually just chain if-statements together too. 
+ We can also chain if-statements together.
  ````
  if (condition) {
     (code)
