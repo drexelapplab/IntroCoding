@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='raw'>
+<playground version='6.0' target-platform='macos' display-mode='rendered'>
     <pages>
         <page name='Untitled Page'/>
         <page name='variables_problems'/>
         <page name='Datatypes'/>
+        <page name='datatype_problems'/>
         <page name='Math'/>
         <page name='compound_stat_assign'/>
+        <page name='math_problems'/>
         <page name='Strings '/>
+        <page name='string_problems'/>
         <page name='Booleans'/>
+        <page name='Bool_problems'/>
         <page name='ifstatements'/>
+        <page name='if_problems'/>
         <page name='Loops'/>
+        <page name='loop_problems'/>
         <page name='Arrays'/>
+        <page name='array_problems'/>
         <page name='functions'/>
+        <page name='simp_function_problems'/>
+        <page name='More_functions'/>
+        <page name='function_problems'/>
     </pages>
 </playground>

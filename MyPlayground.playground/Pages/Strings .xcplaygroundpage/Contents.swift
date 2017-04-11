@@ -4,39 +4,36 @@ import Foundation
  # Strings 
  
  ---
- Think of strings as words or phrases. They can be as short as one character or as long as you can imagine.
- \
- String literals are created in the following form: `"(characters)"`.
+ Strings are essentially words or phrases.
 */
 var firstName = "John"
 var lastName = "Doe"
+var gibberish = "fawpwndufvq"
 /*:
- We can do a lot of things with strings.
+ Strings can be added together.
  */
 var fullName:String = firstName + lastName
 /*:
- As you can see, we can add them together; commonly called "append".
- \
  Notice how there is no space inbetween the first and last name, we can fix that by adding a space inbetween the first and last names.
  */
 fullName = firstName + " " + lastName
 /*:
- We can also count the number of characters in a string.
- */
-fullName.characters.count
-/*:
- We can also put other variables inside strings.
- \
- This is done by putting `\(variable name)` inside a string.
- */
-var formalName = "\(lastName), \(firstName)"
-/*:
- This can be done with numbers too.
+ We can also add numbers to strings too.
  */
 var year = 1984
 var month = 5
 var day = 12
-var DateOfBirth = "\(month)/\(day)/\(year)"
+var dateOfBirth = String (month) + "/" + String (day) + "/" + String (year)
 /*:
-[Next - Booleans](@next)
+ Converting can be tedious, so there is a faster way to do this.
+ \
+ You can insert a value directly into a string by using `\(var)`.
+ */
+var dateOfBirth2 = "\(firstName) was born on \(dateOfBirth)."
+//:The value you insert does not have to be a variable.
+var math = "\(firstName) is \(2017-year) years old."
+/*:
+ This way we can avoid having to write `String (var)`.
+ 
+ [Next - Booleans](@next)
  */

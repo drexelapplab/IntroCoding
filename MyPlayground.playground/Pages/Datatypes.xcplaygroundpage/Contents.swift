@@ -49,7 +49,7 @@ var pi:Double = 3.14159265359
 Int(pi)
 /*:
  - Note:
- Notice how `Int(c)` results in 3. When a `Double` is casted to an `Integer` it is truncated. Which means that any numbers following the decimal point are dropped.
+ Notice how `Int(c)` results in 3. When a `Double` is casted to an `Integer` it is truncated. Which means that any numbers following the decimal point are removed.
  */
 Double (Int (pi))
 pi

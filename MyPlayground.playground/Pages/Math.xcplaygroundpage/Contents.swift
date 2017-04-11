@@ -13,8 +13,6 @@ import Foundation
  `*` : Multiplication
  \
  `/` : Division
- \
- `%` : Modulus - we will learn this one later
  */
 var a:Int = 10
 var b:Int = 3

@@ -41,8 +41,5 @@ age = 33
   or start with numbers
  */
 /*:
- Here are a few examples
- */
-/*:
  when you are ready to continue, press [Next](@next).
  */
