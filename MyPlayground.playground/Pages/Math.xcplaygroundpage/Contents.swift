@@ -38,9 +38,9 @@ c / d
 Double (a / b)
 /*: 
  - Note:
- `Double (a / b) => 3`
+ `Double (a / b) => 3.0`
  \
- This is because `Int / Int => Int`. When the computer looks at the line `Double (a / b)` it first looks to calculate `a / b`. `a / b` will result in `3` and then it will be cast to a double. 
+ This is because `Int / Int => Int`. When the computer looks at the line `Double (a / b)` starts with the outer-most instruction, in this case it is `Double (<inside>)`. The computer will then look at `<inside>` which is `a / b`. `a / b` will be computed as `3` and then the computer can calculate `Double (3)` as `3.0`.
  */
 /*:
  [Next](@next)

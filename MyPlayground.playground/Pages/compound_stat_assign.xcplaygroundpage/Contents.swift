@@ -17,33 +17,17 @@ c + a * b
  `Variables` can also be assigned to arithmetic expressions.
  */
 var d = (c + a) / b
-/*: 
- We can combine assignments and arithmetic.
- ````
- (x += y) => (x = x + y)
- (x -= y) => (x = x - y)
- (x *= y) => (x = x * y)
- (x /= y) => (x = x / y)
- ````
- */
-a /= c
-
-(a + d) * b
-b *= a + d
-
-d += b
-c -= a
 /*:
  - Note:
- adding and subtracting `1` appears often in code. It is commonly done as
- \
- `(variable) += 1`
- \
- or 
- \
- `(variable) -= 1`
+ adding `1` appears often in code. It is can be done as `(variable) = (variable) + 1` or `(variable) += 1`.
  */
 a = 5
 a += 1
 a -= 1
+/*:
+ This is called a Compound Assignment Operator. When the computer is given the instruction `a += 1` it will interpret is `a = a + 1`. This can be done with subtraction, multiplication, and division as well. 
+ \
+ - `-=` : subtraction
+ - `
+ */
 //: [Next - Strings](@next)

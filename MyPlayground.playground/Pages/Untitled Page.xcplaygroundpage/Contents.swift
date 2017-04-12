@@ -1,6 +1,4 @@
-//#-hidden-code
 import Foundation
-//#-end-hidden-code
 /*:
  # Introduction to Coding
  ## Welcome to your playground

@@ -18,6 +18,4 @@ var b = 1.4142
 
 //:subtract `c` from `a` and assign the result to `a`.
 
-//:what is another way to do this?
-
 //: [Next](@next)
