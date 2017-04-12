@@ -14,7 +14,7 @@ c + a * b
 //:If we want to force a certain order, we can put what needs to be done first inside parenthesis.
 (c + a) * b
 /*:
- Variables can also be assigned to arithmetic expressions.
+ `Variables` can also be assigned to arithmetic expressions.
  */
 var d = (c + a) / b
 /*: 
@@ -35,7 +35,7 @@ d += b
 c -= a
 /*:
  - Note:
- Incrementing and Decrementing appears often in code. It is commonly done as 
+ adding and subtracting `1` appears often in code. It is commonly done as
  \
  `(variable) += 1`
  \

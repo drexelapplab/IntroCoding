@@ -2,17 +2,17 @@ import Foundation
 /*: 
  [Previous](@previous)
  ## Problem 1
- Write the code to make a `String`.
+ Write the code to make a `variable` of `datatype` `String` named `cat` with value "cat".
  */
 
-//:create a variable `e` an set it equal to `2.71828`.
+//:create a `variable` named `e` and set its value to `2.71828`.
 
 
-//:Convert that `Double` to an `Int`.
+//:Convert `e` to an `Int`.
 
-//:Create an `Integer` with the value `3`.
+//:Create an `Int` named `myNumber` with the value `3`.
 
-//:Convert that `Integer` to a `String`.
+//:Convert `myNumber` to a `String`.
 
 
 //: [Next](@next)

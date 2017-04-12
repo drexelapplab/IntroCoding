@@ -20,23 +20,25 @@ var names = [name1, name2, name3, name4]
  \
  An `array` is a collection of `variables`. An individual `variable` inside an `array` is also called an `element`.
  \
- You create an array similar to a variable, you just need to surround the `value` in `[brackets]`.
+ You create an `array` similar to a `variable`, you just need to surround the `value` in `[brackets]`.
  \
  ````
  var numbers = [1, 2, 3, 4]
  ````
  \
- You can access each `element` inside an array with the following command. `array[index]`.
+ You can access each `element` inside an `array` with the following command. `array[index]`.
+ \
+ An `index` is the numbered `element` you want.
  */
 names[0]
 /*:
  - Note:
- Indexing starts at 0. so the first element is at `[0]` and the second `element` is at `[1]` and so on...
+  Remember that `index` starts at 0. so the first `element` is at `[0]` and the second `element` is at `[1]` and so on...
  \
- The most common mistake made with `arrays` is forgetting that indexes start at 0.
+ The most common mistake made with `arrays` is forgetting that the `index` start at `[0]`.
  */
 /*:
- There is also a way to find out how many elements are inside an array.
+ There is also a way to find out how many `elements` are inside an `array`.
  */
 names.count
 /*:
@@ -49,7 +51,7 @@ for i in 0...names.count-1 {
 listOfPeople
 /*:
  - Note:
- The range we are using is `0...names.count-1` because array indexing starts at 0.
+ The range we are using is `0...names.count-1` because the `array index` starts at 0.
  */
 /*:
  [Next](@next)

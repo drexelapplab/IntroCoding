@@ -6,7 +6,6 @@ import Foundation
  ---
  So we have a `class` called `Rectangular_Prism` with a few `properties` and an `instance` called `box`.
  */
-
 class Rectangular_Prism {
     var height = 0
     var length = 0
@@ -31,7 +30,9 @@ volume (box: box)
 surfaceArea(box: box)
 
 /*:
- Because all of these functions are directly related to our `class` we can actually define them inside the class.
+ Because all of these functions are directly related to our `class` we can define them inside the class for easier use.
+ \
+ Inside the class, we do not need to add `parameters` for `variables` inside the class. 
  */
 class Cube {
     var length:Int = 0
@@ -45,7 +46,7 @@ class Cube {
 var mycube = Cube ()
 mycube.length = 5
 /*:
- One we define the functions, we can access them similarly to `properties`.
+ One we define the functions, we can access them with dot-notation.
  */
 mycube.volume ()
 mycube.surfaceArea ()

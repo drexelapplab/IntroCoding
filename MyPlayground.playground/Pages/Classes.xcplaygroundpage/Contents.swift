@@ -54,7 +54,7 @@ me.age = 33
  - Note:
  Remember `array.count`?
  \
- `count` is actually a `property` of the `array`.
+ `count` is actually a `property` of `arrays`.
  */
 /*:
  [Next](@next)

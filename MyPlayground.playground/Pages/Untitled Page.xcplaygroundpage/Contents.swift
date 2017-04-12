@@ -1,24 +1,24 @@
-import Cocoa
+//#-hidden-code
+import Foundation
+//#-end-hidden-code
 /*:
  # Introduction to Coding
  ## Welcome to your playground
  
  ---
- Imagine that I ask you to remember the number 5. Now remember my name, "John". Now remember the number 7. What is the first number I asked you to remember times 2? what is that number plus the second number I gave you? 
+ Imagine that you are asked to remember the number 5. Now remember my name, "John". Now remember the number 7. What is the first number I asked you to remember times 2? what is that number plus the second number I gave you?
  \
  As you can see, managing all of this information can get complicated very fast. Computers, on the other hand, are built to do this(so we don't have too!).
  \
- If we want to have a computer remember something for us, we need to create a variable. A variable is a peice of memory that contains something. 
+ If we want to have a computer remember something for us, we need to create a `variable`. `A variable` is a piece of memory that contains a value.
  \
  We tell a computer to do this with this instruction.
  \
  `var (name) = (value)`
  \
- What this tells the computer to do is "remember (name) whose value is (value)". 
+ This tells the computer to remember `name` whose value is `value`.
  \
- Now, if we want to ask the computer for the value all we need to do is use the name. 
- \
- `(name)`
+ Now, if we want to ask the computer for the value all we need to do is use type `name`.
  */
 var age = 32
 var name = "John"
@@ -32,14 +32,18 @@ age = 33
  - Note:
  to help the computer out, make sure variable names do not include
  \
-  whitespace characters, such as " "
+ -whitespace characters, such as " "
  \
-  mathematical symbols
+ -mathematical symbols
  \
-  arrows
+ -arrows
  \
-  or start with numbers
+ -or start with numbers
  */
+/*:
+ Try creating a variable below named `dog` that has value "Spot".
+ */
+
 /*:
  when you are ready to continue, press [Next](@next).
  */

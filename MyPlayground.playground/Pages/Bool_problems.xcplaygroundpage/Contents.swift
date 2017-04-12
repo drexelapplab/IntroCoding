@@ -23,6 +23,6 @@ var y = 7
  */
 var a = <#Bool#>
 var b = <#Bool#>
-!(!a && !(a || b))
+!(!a && !(a && b))
 
 //: [Next](@next)

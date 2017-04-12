@@ -7,7 +7,7 @@ import Foundation
 
 //:Tell the computer to remember your last name.
 
-//:Tell the computer to reember your age.
+//:Tell the computer to remember your age.
 
 //:Change your age to how old you will be next year.
 

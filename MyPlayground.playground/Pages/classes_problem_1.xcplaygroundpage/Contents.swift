@@ -6,7 +6,7 @@ import Foundation
  */
 
 /*:
- Create a `Rectangle` whose `length = 5` and `width = 4`.
+ Create a `Rectangle object` whose `length = 5` and `width = 4`.
  */
 
 //: [Next](@next)

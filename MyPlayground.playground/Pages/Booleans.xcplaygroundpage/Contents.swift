@@ -4,7 +4,7 @@ import Foundation
  # Booleans 
  
  ---
- Booleans, also called `Bools`, are a unique `Datatype`. They are either `true` or `false`.
+ Booleans, also called `Bools`, are a unique `datatype`. They are either `true` or `false`.
  \
  `Bools` are commonly used for comparisons.
  ## The Comparative Operators are
@@ -24,14 +24,15 @@ a < 5
 7 == a
 a <= 12
 /*:
- We can also store `Bools` in variables.
+ We can also store `Bools` in `variables`.
  */
 var c = a > 5
 var ready = true
-ready == false
+ready == c
+
 /*: 
  - Note:
- While we check and see if `Bools` are equal or not, but we cannot determine which one is greater or less than the other.
+ While we check and see if `Bools` are equal or not, we cannot determine if one is greater than the other.
  \
  This is because `Bools` are only `true` or `false`.
  */
@@ -45,9 +46,9 @@ noHandleBars && ready
 ready = false
 noHandleBars || ready
 /*:
- `a && b` is best understood as "Both a and b". So the statement is true only if both a and b are true.
+ `a && b` is best understood as "Both a and b". So the statement is `true` only if both `a` and `b` are `true`.
  \
- `a || b` is best understood as "Either a or b". So the statement is true as long either a or b is true.
+ `a || b` is best understood as "Either a or b". So the statement is `true` as long either `a` or `b` is `true`.
  \
  \
  There is also a special `Bool` Operator called Not(`!`). This can be used to alternate between `Bool` values.
@@ -56,11 +57,11 @@ noHandleBars || ready
 !noHandleBars
 /*: 
  - Note:
- Just like with casting, this does not change the actual variable. 
+ Just like with `casting`, this does not change the actual `variable`.
  \
- `!true = false`
+ `!true => false`
  \
- `!false = true`
+ `!false => true`
  */
 /*:
  If we want to put multiple `Bool` operators together we need to use parenthesis to define order of operations.

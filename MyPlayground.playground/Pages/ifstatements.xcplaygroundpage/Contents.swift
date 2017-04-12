@@ -21,7 +21,7 @@ if (b > a) {
 }
 
 /*:
- The if-statement reads: if (b > a) then {c = "\\(b) > \\(a)"}
+ The if-statement reads: if (b > a) then do {c = "\\(b) > \\(a)"}
  \
  If we want to do something when the condition is `false`, then we need to add an `else`.
  ````
@@ -57,4 +57,5 @@ if (a < b){
 } else {
     c = "\(a) == \(b)"
 }
+c
 //: [Next](@next)

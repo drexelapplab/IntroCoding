@@ -6,14 +6,11 @@ import Foundation
  \
  you can click on the box to replace it with a value.
  */
-var street = <#your address#>
-var city = <#your city#>
-var state = <#your state#>
-var zipcode = <#your zipcode#>
+///something
 /*:
  Now create variable `address` which contains your full address. 
  \
  the string should look something like `"3401 Market St, Philadelphia, PA 19104"`.
  */
-var address = ""
+var address = "' "
 //: [Next](@next)

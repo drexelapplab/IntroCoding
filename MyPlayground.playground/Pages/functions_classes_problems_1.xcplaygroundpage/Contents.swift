@@ -19,9 +19,9 @@ you.sayHi ()
  ## Problem 2
  Add the following functions to `Count`. 
  \
- `inc ()` => add 1 to `count`
+ `increment ()` => add 1 to `count`
  \
- `inc (by:Int)` => add `by` to `count`
+ `increment (by:Int)` => add `by` to `count`
  \
  `reset ()` => set `count` to 0
  */
@@ -30,9 +30,9 @@ class Counter {
     <#code#>
 }
 var myCounter = Counter ()
-myCounter.inc (by: 10)
-myCounter.inc ()
-myCounter.inc ()
+myCounter.increment (by: 10)
+myCounter.increment ()
+myCounter.increment ()
 myCounter.count
 myCounter.reset ()
 myCounter.count 
