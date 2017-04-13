@@ -12,9 +12,23 @@ sumOfNumbersFrom1To5 += 3
 sumOfNumbersFrom1To5 += 4
 sumOfNumbersFrom1To5 += 5
 /*:
- It can get tedius to write the same line of code over and over again. We also might not know how many times we want to do something.
+ It can get tedius to write the same line of code over and over again. We also might not know how many times we want to do something. Luckily, there are for-loops. The for-loop is a structure that lets us repeat code a specific number of times. Here is how it loops. 
+ ````
+ for (item) in (range) {
+ (code)
+ }
+ ````
+ `Item` is a special kind of `variable`. It changes throughout the loop and will be forgotten when the loop stops. Just like all `variables`, it has to have a unique name, although most programmers will default to `i`.
  \
- So if we wanted to add up the numbers from `1 to n`, it would look like this.
+ `Range` is essentially a list of values. Each value in a `range` is called an `element`.
+ \
+ When a for-loop is executed, the computer will do the following steps:
+ 1. assign `item` to first `element` in `range`.
+ 2. execute the `code`.
+ 3. if `item` is last `element` in `range` then stop the loop.
+ 4. otherwise, assign `item` to next `element` in the `range`
+ 5. and go to step 2.
+ Here is an example of a for-loop that adds up all the numbers from 1 to 50.
  */
 var n = 50
 var sum = 0
@@ -22,40 +36,8 @@ for i in 1...n {
     sum += i
 }
 sum
-/*:
- This is called a for-loop and its syntax is 
- ````
- for (item) in (range) {
-    (code)
- }
- ````
- As we can see, there is a lot going on here. 
- \
- the first line 
- ````
- for (item) in (range) 
- ````
- can be read as "for each element in the range do..."
- \
- "`Element`" is really a temporary `variable`. It is temporary because it only exists inside the for-loop. Just like all `variables`, it has to have a unique name, although most programmers will default to `i`.
- \
- A range is essentially a list of `elements`. a simple way to create a range of numbers is shown.
- ````
- 1...n
- ````
- So if `n = 5` this will create the range `1, 2, 3, 4, 5`.
- \
- Now the fancy part. 
- \
- The for loop will do the following steps:
- 1. assign `i` to first element in range.
- 2. execute the `code`.
- 3. if `i` is last element in range then stop the loop.
- 4. otherwise, assign `i` to next element in the range
- 5. and go to step 2.
- */
 /*: 
- As we can see, there is a lot going on here, so lets look at what this would look out without a loop.
+ Here is a breakdown of what the loop is doing in it's first three iterations. An iteration is a single execution of a loop.
  */
 sum = 0
 var i = 1
@@ -67,28 +49,21 @@ sum += i
 i = i + 1
 sum += i
 /*:
- - Note: 
- When you go through a loop once it is called an `interation`.
- \
- In this example each iteration contains: 
+ If there is no way to tell how many times we will need to run a loop we can use a while-loop instead. A while loop is a mix between an if-statement and a for-loop.
  ````
- i = i + 1
- sum += i 
- ````
- */
-/*:
- There are other kinds of loops too. 
- ````
- while (condition) {
+ while (<condition>) {
     (code)
  }
  ````
- this loop works a little differently. Unlike for-loops, while-loops will run until the condition is `false`.
- \
- this kind of loop is best when you are repeating a simple line of code an unknown amount of times.
+ When a while-loop is executed the computer will do the following steps:
+ 1. stop the loop if the `condition` is `false`.
+ 2. execute the `code`.
+ 3. go to step 1.
+ - Note: 
+ While-loops can run 0 times if the condition is `false` to start with.
  */
 var isEven:Bool
-var a = 460
+var a = 120
 while a > 2 {
     a -= 2
 }
@@ -100,15 +75,7 @@ if a == 2 {
 }
 isEven
 /*:
- Here is an example of a while loop. 
- \
- The loop does the follow steps 
- 1. stop the loop if the condition is `false`.
- 2. execute the `code`.
- 3. go to step 1.
- */
-/*:
- This specific loop looks to determine if a number is odd or even. 
+ This example looks to determine if a number is odd or even.
  \
  See if you can figure out why this works.
  */

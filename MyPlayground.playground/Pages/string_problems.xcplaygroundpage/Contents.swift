@@ -1,16 +1,18 @@
 import Foundation
 /*:
  [Previous](@previous)
- ## Problem 1
+ ## Practice
  Fill out the following variables.
  \
  you can click on the box to replace it with a value.
  */
-///something
+var firstName = <#first name#>
+var lastName = <#last name#>
+var favoriteColor = <#favoriteColor#>
 /*:
- Now create variable `address` which contains your full address. 
+ Now assign the value of `intro` to introduce yourself and your favorite color.
  \
- the string should look something like `"3401 Market St, Philadelphia, PA 19104"`.
+ the string should look something like `"Hello, my name is John Doe and my favorite color is Red."`
  */
-var address = "' "
+var intro = ""
 //: [Next](@next)

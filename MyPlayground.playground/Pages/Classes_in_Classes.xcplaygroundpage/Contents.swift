@@ -4,7 +4,7 @@ import Foundation
  # Class-ception 
  
  ---
- We can have `classes` with `properties` that are also classes. This lets us describe complicated situations with ease.
+ We can have `classes` with `properties` that are also `classes`. This lets us describe situations that would otherwise be complicated.
  */
 class Person {
     var name:String
@@ -24,11 +24,8 @@ class Appartment {
 }
 var me = Person (withName: "John Doe", andAge: 33)
 var myAppartment = Appartment (number: 1337, withTenant: me)
-myAppartment.tenant.name
-//:Now we can replace the Tenant
+//:We can change the tenant just like any other `property`.
 var newTenant = Person (withName: "Adam Smith", andAge: 25)
 myAppartment.tenant = newTenant
-myAppartment.tenant.name
-
 
 //: [Next](@next)

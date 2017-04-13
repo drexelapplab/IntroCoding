@@ -25,9 +25,9 @@ a = 5
 a += 1
 a -= 1
 /*:
- This is called a Compound Assignment Operator. When the computer is given the instruction `a += 1` it will interpret is `a = a + 1`. This can be done with subtraction, multiplication, and division as well. 
- \
+ This is called a Compound Assignment Operator. When the computer is given the instruction `a += 1` it will interpret is `a = a + 1`. They both produce the same result so it is up to you which to use. There are also Compound Assignment Operators for subtraction, multiplication, and division as well.
  - `-=` : subtraction
- - `
+ - `*=` : multiplication
+ - `/=` : division
  */
 //: [Next - Strings](@next)

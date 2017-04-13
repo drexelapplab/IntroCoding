@@ -1,14 +1,14 @@
 /*: 
  [Previous](@previous)
- ## Problem 1
+ ## Practice 1
  Write an if-statement to determine if you are old enough to vote.
  */
 var age = <#your age#>
-
+var canVote:Bool
 
 /*:
  ## Problem 2
- Write a series of if-statements to determine the corresponding letter grade to a user’s `score`.
+ Write a series of if-else-statements to determine the corresponding letter grade to a user’s `score`.
  \
  `A` for 100-90
  \

@@ -1,7 +1,7 @@
 import Foundation
 /*: 
  [Previous](@previous)
- ## Problem 1
+ ## Practice 1
  Write code in the `Person` `class` to introduce itself.
  */
 class Person {
@@ -16,7 +16,7 @@ you.firstName = <#your first name#>
 you.lastName = <#your last name#>
 you.sayHi ()
 /*:
- ## Problem 2
+ ## Practice 2
  Add the following functions to `Count`. 
  \
  `increment ()` => add 1 to `count`
@@ -33,7 +33,7 @@ var myCounter = Counter ()
 myCounter.increment (by: 10)
 myCounter.increment ()
 myCounter.increment ()
-myCounter.count
+myCounter.count == 12
 myCounter.reset ()
-myCounter.count 
+myCounter.count == 0
 //: [Next](@next)

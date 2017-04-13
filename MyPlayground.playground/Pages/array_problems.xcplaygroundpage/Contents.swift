@@ -1,7 +1,7 @@
 import Foundation
 /*: 
  [Previous](@previous)
- ## Problem 1
+ ## Practice 1
  Fill out the following `array` with a few `elements`.
  */
 var colors:[String] = <#color#>
@@ -11,7 +11,7 @@ var colors:[String] = <#color#>
 var color = "indigo"
 
 /*:
- ## Problem 2
+ ## Practice 2
  Fix the following code.
  */
 var numbers = 47, 97, 91, 56, 54, 18, 99, 31, 68, 1, 12

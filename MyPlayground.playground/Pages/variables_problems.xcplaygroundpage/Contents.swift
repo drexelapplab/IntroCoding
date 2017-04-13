@@ -1,7 +1,7 @@
 import Foundation
 /*: 
  [Previous](@previous)
- ## Problem 1
+ ## Practice 
  Tell the computer to remember your first name.
  */
 

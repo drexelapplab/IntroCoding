@@ -4,16 +4,16 @@ import Foundation
  # Initializing a Class
  
  ---
- When creating an object, so far we have had to assign each property a value. There is a special `class` function called `init` which can do this for us.
+ When creating an `object`, so far we have had to assign each `property` a value after making the `object`. There is a special `class` function called `init` which can do this for us.
  ````
- class (name) {
+ class (Name) {
     (properties)
     init (<parameters>) {
         (code)
     }
  }
  ````
- `init` can be very useful when creating an `instance` of a `class`.
+ `init` can be very useful when creating an `object`.
  */
 class Person {
     var name:String
@@ -24,12 +24,10 @@ class Person {
     }
 }
 var me = Person (yourName:"John", yourAge:33)
-me.age
-me.name
 /*:
- There is no limit to the number of `init` functions we can have. Just make sure each one is unique. 
+ There is no limit to the number of `init functions` a `class` can have. Just make sure each one is unique.
  \
- This `class` is built to help make unit conversions easy. It can `initialize` with several different units and convert them.
+ The following `class` is built to help make unit conversions for weight easy. It can `initialize` with several different units and convert them.
  */
 class Weight {
     var grams:Double

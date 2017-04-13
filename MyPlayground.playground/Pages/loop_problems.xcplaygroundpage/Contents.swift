@@ -1,7 +1,7 @@
 import Foundation
 /*: 
  [Previous](@previous)
- ## Problem 1
+ ## Practice 1
  Edit the following loop so it adds up the numbers from `1 to 15`.
  */
 var sum = 0
@@ -16,7 +16,7 @@ for i in <#range#> {
 }
 sum
 /*:
- ## Problem 2
+ ## Practice 2
  Write a loop that produces a string of the numbers from `n to 0`.
  \
  `(n = 5) => "5, 4, 3, 2, 1"`

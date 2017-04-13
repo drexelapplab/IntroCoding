@@ -1,8 +1,8 @@
 import Foundation
 /*: 
  [Previous](@previous)
- # Problem 1
- Create a `Class` called `Rectangle` that has a `width` and `length`.
+ # Practice 1
+ Create a `Class` called `Rectangle` that has `properties` `width` and `length`. Both are `Ints`.
  */
 
 /*:

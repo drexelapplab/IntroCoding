@@ -1,7 +1,7 @@
 import Foundation
 /*: 
  [Previous](@previous)
- ## Problem 1
+ ## Practice 
  Write the code to make a `variable` of `datatype` `String` named `cat` with value "cat".
  */
 
@@ -10,9 +10,9 @@ import Foundation
 
 //:Convert `e` to an `Int`.
 
-//:Create an `Int` named `myNumber` with the value `3`.
+//:Create an `Int` named `n` with the value `3`.
 
-//:Convert `myNumber` to a `String`.
+//:Convert `n` to a `String`.
 
 
 //: [Next](@next)

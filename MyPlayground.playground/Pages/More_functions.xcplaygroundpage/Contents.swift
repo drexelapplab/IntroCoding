@@ -1,15 +1,16 @@
 import Foundation
 /*: 
  [Previous](@previous)
- # More Functions 
+ # More uses for Functions
  
  ----
  There are alot of cool things you can do with functions. 
  \
- Here is how you would add all the numbers in an array together.
+ Here is how you would add all the numbers in an `array`.
  */
 var myNumbers = [22, 49, 18, 37, 6, 97, 8, 21, 16, 26]
 var yourNumbers = [88, 53, 51, 36, 85, 58, 17, 43, 89, 1]
+
 func sum (array: [Int]) -> Int {
     var currentSum = 0
     for i in 0...array.count-1 {
@@ -17,6 +18,7 @@ func sum (array: [Int]) -> Int {
     }
     return currentSum
 }
+
 sum (array: myNumbers)
 sum (array: yourNumbers)
 /*:
@@ -31,13 +33,12 @@ func max (array: [Int]) -> Int {
     }
     return currentMax
 }
+
 max (array: myNumbers)
 max (array: yourNumbers)
 /*:
  - Note: 
- Our starting value is the first element in the array. This is because if we start at 0 there is a chance that 0 will be larger than any value in the array.
- \
- We can exclude `array[0]` from the for-loop because we already have the value.
+ Our starting value is the first element in the array. This is because if we start with `currentMax = 0` there is a chance that `0` is larger than anything in the `array`. Because we already have the value of `array[0]` we do not need to include it in our loop so our range is `1...array.count-1`.
  */
 
 

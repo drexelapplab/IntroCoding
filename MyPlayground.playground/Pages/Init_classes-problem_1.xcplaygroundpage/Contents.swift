@@ -1,7 +1,7 @@
 import Foundation
 /*: [Previous](@previous)
- ## Problem 1
- Fill Out the following `init` functions.
+ ## Practice 1
+ Fill Out the following `init functions`.
  */
 class Time {
     var seconds:Double
@@ -27,7 +27,7 @@ class Time {
         <#code#>
     }
 /*:
- Fill out the following conversion functions
+ Fill out the following conversion `functions`.
  */
     func inSeconds () -> Double{
         <#code#>

@@ -4,13 +4,13 @@ import Foundation
  # Strings 
  
  ---
- `Strings` are essentially words or phrases.
+ `Strings` are essentially words or phrases. They are great for remembering text but not so much for numbers because you cannot use arithmetic on `strings` the same way you can on numbers.
 */
 var firstName = "John"
 var lastName = "Doe"
 var gibberish = "fawpwndufvq"
 /*:
- `Strings` can be added together.
+ `Strings` can be added together but they cannot be subtracted, multiplied, or divided.
  */
 var fullName:String = firstName + lastName
 /*:
@@ -27,13 +27,13 @@ var dateOfBirth = String (month) + "/" + String (day) + "/" + String (year)
 /*:
  Converting can be tedious, so there is a faster way to do this.
  \
- You can insert a `value` directly into a string by using `\(var)`.
+ You can insert a `value` directly into a string by using `\(var)`. This will give you the same result but is shorter to write.
  */
 var dateOfBirth2 = "\(firstName) was born on \(dateOfBirth)."
-//:The `value` you insert does not have to be a `variable`.
+//:The `value` you insert does not have to be a `variable`. It can be numbers or expressions, just make sure it is all surrounding in parenthesis. 
 var math = "\(firstName) is \(2017-year) years old."
 /*:
  This way we can avoid having to write `String (var)`.
  
- [Next - Booleans](@next)
+ [Next](@next)
  */

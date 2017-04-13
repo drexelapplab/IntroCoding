@@ -4,41 +4,31 @@ import Foundation
  # Functions
  
  ---
- You convert inches to meters by multiplying the number of inches by `0.0254`. So any time we would want to convert a measurement of inches into meters we would need to convert it. If we want to repeat this conversion a couple hundred times it can get tedious.
- \
- Luckily for us, we can ask a computer to remember tasks. We call these `functions`.
- \
- Here is how you tell the computer to remember a `function`.
+ Inches are converted to meters by multiplying the number of inches by `0.0254`. We can manually type this conversion out each time we wanted to convert inches to meters, or we could use a `function` instead. A `function` is a task that we ask the computer to remember. `Functions` are great because it lets us re-use code without having it inside of a loop. Here is how you tell the computer to remember a function.
  ````
  func functionName (<parameters>) -> returntype {
     (code)
     return ...
  }
  ````
- The `returntype` is optional and is used when you want the `function` to give you a value back. `returntype` is the `datatype` of what the `function` will give you back after running. If you are using a `returntype` your `function` has return something.
+ `Parameter`s are values the `function` needs to complete its task. We define `parameters` as `(name):(datatype)` and separate them with commas. It is important to remember that every `parameter` cannot be changed. If you want a `function` that changes the value of a `variable` you will need to `return` the new value.
  \
- Here is how you would make a function without a `returntype`.
+ The `returntype` is optional and is used when you want the `function` to give you a value back. `returntype` is the `datatype` of what the `function` will give you back after execution. If you are using a `returntype` your `function` has to return something. Here is how you would make a function without a `returntype`.
  ````
- fun functionName (parameters) {
+ fun functionName (<parameters>) {
     (code)
  }
  ````
- So this is how you would write a function that converts inches to meters.
+ Here is a function that converts inches to meters.
  */
 func InchestoMeters (inches:Double) -> Double {
     return inches * 0.0254
 }
-InchestoMeters (inches: 39.0)
+InchestoMeters (inches: 39.5)
 InchestoMeters (inches: 200.0)
 InchestoMeters (inches: 12.0)
 /*:
  - Note:
- `Parameter`s are values the `function` needs to complete the task. In this example, the `function` requires a number(`inches`) which it converts.
- \
- `Parameters` are defined as `(name):(datatype)` and are separated by commas.
- \
- `Parameters` are constant; you cannot change them.
- \
  `Functions` do not need `parameters`.
  */
 func sayHi () -> String {
@@ -47,9 +37,9 @@ func sayHi () -> String {
 sayHi ()
 sayHi ()
 /*:
- We can use all of the other things we have learned inside `function`. Such as if-statements.
+ We can use all of the other structures we have learned inside `functions`. Such as if-statements.
  \
- `abs (a:Int)` takes a number(`a`) and returns the positive version of `a`.
+ Here is a function named `abs (a:Int)` which takes a number(`a`) and returns the positive version of `a`.
  */
 func abs (a:Int) -> Int {
     if a > 0 {
