@@ -6,10 +6,9 @@
  fix the code so that it checks if `n` is between 12 and 18.
  */
 var n = 14
-18 > n < 12
+18 > n > 12
+
 /*:
- 
- ---
  Write code for the follow statements.
  \
  `x` and `y` are both not equal to 0.

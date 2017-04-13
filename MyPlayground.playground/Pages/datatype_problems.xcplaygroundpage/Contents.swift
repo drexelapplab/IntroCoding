@@ -5,7 +5,7 @@ import Foundation
  Write the code to make a `variable` of `datatype` `String` named `cat` with value "cat".
  */
 
-//:create a `variable` named `e` and set its value to `2.71828`.
+//:Create a `variable` named `e` and set its value to `2.71828`.
 
 
 //:Convert `e` to an `Int`.

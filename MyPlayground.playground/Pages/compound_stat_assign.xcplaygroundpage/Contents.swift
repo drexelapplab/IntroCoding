@@ -19,11 +19,15 @@ c + a * b
 var d = (c + a) / b
 /*:
  - Note:
- adding `1` appears often in code. It is can be done as `(variable) = (variable) + 1` or `(variable) += 1`.
+ Adding 1 to a number is often done in code. We can do that operation in several ways. 
+ ```` 
+ a = a + 1
+ a += 1
+ ````
  */
 a = 5
+a = a + 1
 a += 1
-a -= 1
 /*:
  This is called a Compound Assignment Operator. When the computer is given the instruction `a += 1` it will interpret is `a = a + 1`. They both produce the same result so it is up to you which to use. There are also Compound Assignment Operators for subtraction, multiplication, and division as well.
  - `-=` : subtraction

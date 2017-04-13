@@ -4,20 +4,18 @@ import Foundation
  # If-Statements
  
  ---
- If-statements are the core of programming.
- \
- Every program can be written in only if-statements. Here is an example of an if-statement.
+ The if-statement reads allows us to control the flow of our code. We can skip some parts of it and execute other parts only when needed. Without if-statements, programs would run the same way every time. This is the structure of an if-statement.
  ````
  if (<condition>) {
     (code)
  }
  ````
- The if-statement reads: if (<boolean>) then do {<code>}. This allows us to control the flow of our code. We can skip some parts of it and execute other parts only when needed. Without if-statements, programs would run the same way every time.
+ The if-statement will run `(code)` if the `<condition>` is `true`. If the `<condition>` is `false` then the `(code)` will be skipped.
 */
 var a = 6
 var b = 10
 var c = ""
-if (b > a) {
+if (b > a) { //try swapping > with <
     c = "\(b) > \(a)"
 }
 
@@ -27,9 +25,10 @@ if (b > a) {
  if (<condition>) {
     (code)
  } else {
-    (code)
+    (code2)
  }
  ````
+ The if-else-statement
  */
 if (a == b) {
     c = "\(a) == \(b)"

@@ -3,8 +3,6 @@ import Foundation
  [Previous](@previous)
  ## Practice
  Fill out the following variables.
- \
- you can click on the box to replace it with a value.
  */
 var firstName = <#first name#>
 var lastName = <#last name#>
@@ -14,5 +12,5 @@ var favoriteColor = <#favoriteColor#>
  \
  the string should look something like `"Hello, my name is John Doe and my favorite color is Red."`
  */
-var intro = ""
+var introduction = ""
 //: [Next](@next)
