@@ -32,7 +32,7 @@ names[3]
  - Note:
   Remember that `index` starts at 0. so the first `element` is at `[0]` and the second `element` is at `[1]` and so on...
  \
- The most common mistake made with `arrays` is forgetting that the `index` start at `[0]`.
+ The most common mistake made with `arrays` is forgetting that the `index` start at 0.
  */
 /*:
  `Arrays` are great for loops because we can use a loop to access every `element` in an `array`. If we want to know how many times the loop should run then all we need is the number of `elements` inside the `array`. We can get that number with `array.count`. The trick is that `array.count` will give us the number of `elements` but the `index` starts at 0 so we need to start the `range` at 0 and to go `array.count-1`. 
@@ -43,6 +43,7 @@ var listOfPeople = ""
 for i in 0...names.count-1 {
     listOfPeople += "\(names[i]) "
 }
+listOfPeople
 /*:
  - Note:
  The range we are using is `0...names.count-1` because the `array index` starts at 0.

@@ -15,7 +15,7 @@ sumOfNumbersFrom1To5 += 5
  It can get tedius to write the same line of code over and over again. We also might not know how many times we want to do something. Luckily, there are for-loops. The for-loop is a structure that lets us repeat code a specific number of times. Here is how it loops. 
  ````
  for (item) in (range) {
- (code)
+    (code)
  }
  ````
  `Item` is a special kind of `variable`. It changes throughout the loop and will be forgotten when the loop stops. Just like all `variables`, it has to have a unique name, although most programmers will default to `i`.
@@ -28,7 +28,7 @@ sumOfNumbersFrom1To5 += 5
  3. if `item` is last `element` in `range` then stop the loop.
  4. otherwise, assign `item` to next `element` in the `range`
  5. and go to step 2.
- Here is an example of a for-loop that adds up all the numbers from 1 to 50.
+ Here is an example of a for-loop that adds up all the numbers from 1 to `n`.
  */
 var n = 50
 var sum = 0
@@ -63,7 +63,7 @@ sum += i
  While-loops can run 0 times if the condition is `false` to start with.
  */
 var isEven:Bool
-var a = 120
+var a = 89
 while a > 2 {
     a -= 2
 }

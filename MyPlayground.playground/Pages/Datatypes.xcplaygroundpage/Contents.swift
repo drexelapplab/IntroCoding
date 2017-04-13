@@ -14,34 +14,33 @@ var a = 10
  3. Assign the new `variable` to the provided `value`.
  
  So, when we enter
- \
- `var a = 10`
- \
- The computer checks if it is already remembering `a`.
- \
- The computer will then guess the `datatype` of `a`.
- \
- The computer will then remember `a` as `10`.
+ ````
+ var a = 10
+ ```` 
+ The computer checks if it is already remembering `a`. The computer will then guess the `datatype` of `a`. The computer will then remember `a` as `10`.
  \
  If we already know what the `datatype` is we can define it using the following command.
- \
- `var (name):(datatype) = (value)`
+ ````
+ var (name):(datatype) = (value)
+ ````
  */
 var b:Int = 3
 
 /*:
  In this example, we defined `b` as an `Int`. The basic `datatypes` are `Int`, `Double`, `String`, and `Bool`. For now we will work with `Ints` and `Doubles`.
- \
- \
- When defining a `double` we need to make sure there is a decimal point in the number.
+ ## Other Datatypes
+ When defining a `double` we need to make sure there is a decimal point in the value.
  */
 var pi:Double = 3.14159265359
 /*:
- We can think of `Doubles` as numbers with decimals and `Ints` and numbers without decimals. So while every `Int` can be represented as a `Double` not every `Double` can be an `Int`. `Doubles` take up twice the memory of an `Int`. So if the decimals are not needed, it is best to use `Ints` so you can have more of them. If we ever want to switch between a `Double` and an `Int`, or any `datatype` for that matter, we can `cast` them as another `datatype`. `Casting` means to change a `variable` of one `datatype` into another `dataype`. This is done with the following instruction. 
- \
- `(Datatype) (<variable>)`
+ We can think of `Doubles` as numbers with decimals and `Ints` and numbers without decimals. So while every `Int` can be represented as a `Double` not every `Double` can be an `Int`. `Doubles` take up twice the memory of an `Int`. So if the decimals are not needed, it is best to use `Ints` so you can have more of them. 
+ ## Changing Datatypes
+ If we ever want to switch between a `Double` and an `Int`, or any `datatype` for that matter, we can `cast` them as another `datatype`. `Casting` means to change a `variable` of one `datatype` to another `dataype`. This is done with the following instruction.
+ ````
+ (Datatype) (<variable>)
+ ````
  */
-Int(pi)
+Int (pi)
 /*:
  - Note:
  Notice how `Int(pi)` results in 3. When a `Double` is casted to an `Integer` it is truncated. Which means that any numbers following the decimal point are removed.

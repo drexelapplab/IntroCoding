@@ -14,7 +14,7 @@ import Foundation
  \
  `/` : Division
  */
-var a:Int = 10
+var a = 10
 var b = 3
 a + b
 a - b
@@ -32,8 +32,8 @@ a / b
  We can get the actual answer in several ways.
  */
 Double(a) / Double (b)
-var c:Double = 10.0
-var d:Double = 3.0
+var c = 10.0
+var d = 3.0
 c / d
 Double (a / b)
 /*: 
