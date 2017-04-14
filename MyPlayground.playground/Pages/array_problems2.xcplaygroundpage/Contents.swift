@@ -7,7 +7,6 @@ import Foundation
 var numbers = 47, 97, 91, 56, 54, 18, 99, 31, 68, 1, 12
 
 //:What is the sum of all the values in `numbers`? Hint: think loops. 
-
-
+<#write your code here#>
 
 //: [Next](@next)

@@ -10,7 +10,7 @@ import Foundation
  */
 <#write your function here#>
 
-fToC (f: 68.0) == 20.0
-fToC (f: 32.0) == 0.0
-fToC (f: 86.0) == 30.0
+fehrenheitToCelsius (fehrenheit: 68.0) == 20.0
+fehrenheitToCelsius (fehrenheit: 32.0) == 0.0
+fehrenheitToCelsius (fehrenheit: 86.0) == 30.0
 //: [Next](@next)

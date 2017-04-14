@@ -15,9 +15,7 @@ var n = 14
  */
 var x = 10
 var y = 7
-//<#write your code below#>
 
 //:`x` is larger than `y` but not larger than `2 * y`.
-//<#write your code below#>
 
 //: [Next](@next)
