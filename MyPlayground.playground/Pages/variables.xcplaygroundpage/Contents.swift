@@ -29,7 +29,7 @@ import Foundation
  \
  `(value)` can be any value. For now, values can be words/phrases in quotes or numbers.
  - - - 
- Here are a few `variables`. feel free to mess around with them.
+ Here are a few `variables`.
  */
 var age = 32
 var name = "John"

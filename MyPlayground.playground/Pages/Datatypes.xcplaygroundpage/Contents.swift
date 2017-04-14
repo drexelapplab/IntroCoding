@@ -7,7 +7,8 @@ import Foundation
  Lets start by making a variable that contains a number.
  when we enter: 
  ````
- var a = 10
+ var (name) = (value)
+ var a = 10 // an example
  ````
  the computer will do three things for us.
  1. Check if the `variable` name has already been used.
@@ -19,19 +20,18 @@ var a = 10
 /*:
  Alternatively, we can specify what `datatype` we would like to use. While this is not needed, there are times where we want to create a `variable` of a certain `datatype` that does not start off a value.
  ````
- var (name):(datatype) = (value)
- var (name):(datatype)
+ var (name):(datatype) = (value) //with value
+ var (name):(datatype)           //without value
  ````
  */
 var b:Int = 3
 var c:Int
 c = 10
 
-
 /*:
  In this example, we defined `b` as an `Int`. The basic `datatypes` are `Int`, `Double`, `String`, and `Bool`. For now we will work with `Ints` and `Doubles`.
  ## Other Datatypes
- When defining a `double` we need to make sure there is a decimal point in the value.
+ When defining a `Double` we need to make sure there is a decimal point in the value.
  */
 var pi = 3.14159265359
 /*:

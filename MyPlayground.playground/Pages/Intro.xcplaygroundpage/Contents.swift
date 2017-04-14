@@ -26,7 +26,7 @@ import Foundation
 //Hello, I am a single-line comment. I start with "//" and end at the end of the line.
 var stuck = "in the middle of"//two comments; I can be added after code too!
 
-/* Hi!
+/* Hello,
  I am a multi-line comment. 
  I start with "/*" 
  and end with "*/".

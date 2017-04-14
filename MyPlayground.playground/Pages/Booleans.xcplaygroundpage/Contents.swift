@@ -7,13 +7,13 @@ import Foundation
  Booleans, also called `Bools`, are a unique `datatype`. They are either `true` or `false`.
  \
  `Bools` are commonly used for comparisons.
- ## The Comparative Operators are
+ ## Comparison Operators
  * `<`  : Less Than
  * `>`  : Greater Than
- * `==` : Equal
- * `!=` : Not Equal
- * `<=` : Less than or Equal
- * `>=` : Greater Than or Equal
+ * `==` : Equal to
+ * `!=` : Not Equal to
+ * `<=` : Less than or Equal to
+ * `>=` : Greater Than or Equal to
  */
 /*:
  We can use these, for example, to compare numbers.
@@ -56,7 +56,7 @@ noHandleBars || ready
 !ready
 !noHandleBars
 /*:
- If we want to put multiple `Bool` operators together we need to use parenthesis to define order of operations.
+ If we want to put multiple `Bool` operators together we need to use parenthesis to define order of operations. Otherwise your computer will not know which one to do first. 
  */
 var hasBike = true
 ready || (hasBike && noHandleBars)

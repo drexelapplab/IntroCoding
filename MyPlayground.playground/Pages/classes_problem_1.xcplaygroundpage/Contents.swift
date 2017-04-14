@@ -2,7 +2,7 @@ import Foundation
 /*: 
  [Previous](@previous)
  # Practice 1
- Create a `Class` called `Rectangle` that has `properties` `width` and `length`. Both are `Ints`.
+ Create a `class` called `Rectangle` that has `properties` `width` and `length`. Both are `Ints`.
  */
 
 /*:

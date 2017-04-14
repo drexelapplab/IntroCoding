@@ -30,7 +30,7 @@ sumOfNumbersFrom1To5 += 5
  5. and go to step 2.
  Here is an example of a for-loop that adds up all the numbers from 1 to `n`.
  */
-var n = 50 //see what happens when you change n.
+var n = 50 //see what happens when you change the value of n.
 var sum = 0
 for i in 1...n {
     sum += i
@@ -70,15 +70,14 @@ while a > 2 {
     a -= 2
 }
 
-if a == 2 {
+if a == 2 {//if-else-statement to determine if a is even or odd
     isEven = true
 } else {
     isEven = false
 }
 isEven
 /*:
- This example looks to determine if a number is odd or even.
+ This example looks to determine if a number is odd or even. See if you can figure out why this works.
  \
- See if you can figure out why this works.
+ [Next](@next)
  */
-//: [Next](@next)

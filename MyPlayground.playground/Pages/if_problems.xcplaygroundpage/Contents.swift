@@ -6,7 +6,7 @@
 var age = <#your age#>
 var canVote:Bool
 
-<#if-statement#>
+<#write your if-statement here#>
 
 /*:
  ## Practice 2

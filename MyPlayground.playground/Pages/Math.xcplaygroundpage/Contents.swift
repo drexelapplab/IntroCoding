@@ -4,17 +4,20 @@ import Foundation
  # Arithmetic Operators
  
  ---
- The Arithmetic operators are
+ The Arithmetic operators are:
+ - `+` : Addition
+ - `-` : Subtraction
+ - `*` : Multiplication
+ - `/` : Division
  \
- `+` : Addition
- \
- `-` : Subtraction
- \
- `*` : Multiplication
- \
- `/` : Division
+ They are used to do tell the computer to do arithmetic. For example, addition would look like this. 
+ ````
+ var a = 10
+ var b = 3
+ a + b //results in 13
+ ````
  */
-var a = 17
+var a = 10
 var b = 3
 a + b
 a - b
@@ -27,12 +30,11 @@ a / b
  `Int / Int` results in an `Int`
  \
  `Double / Double` results in a `Double`
- */
-/*:
+ - - -
  We can get the actual answer in several ways.
  */
-Double(a) / Double (b) //convert both to doubles
-var c = 10.0 //make double versions of the numbers
+Double(a) / Double (b) //convert both to Doubles
+var c = 10.0 //make Double versions of the numbers
 var d = 3.0
 c / d //now we get the right answer
 

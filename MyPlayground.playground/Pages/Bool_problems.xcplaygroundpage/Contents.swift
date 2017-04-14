@@ -1,12 +1,12 @@
 /*: 
  [Previous](@previous)
- ## Practice 1
+ ## Boolean Practice 1
  What is the issue with the following code?
  \
  fix the code so that it checks if `n` is between 12 and 18.
  */
 var n = 14
-18 > n > 12
+18 > n > 12 //fix this
 
 /*:
  Write code for the follow statements.
@@ -15,15 +15,9 @@ var n = 14
  */
 var x = 10
 var y = 7
+//<#write your code below#>
 
 //:`x` is larger than `y` but not larger than `2 * y`.
-
-/*:
- ## Practice 2
- What values of `a` and `b` make the following expression true?
- */
-var a = <#Bool#>
-var b = <#Bool#>
-!(!a && !(a && b))
+//<#write your code below#>
 
 //: [Next](@next)
