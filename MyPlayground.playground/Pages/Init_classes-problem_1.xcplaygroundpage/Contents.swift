@@ -1,5 +1,6 @@
 import Foundation
-/*: [Previous](@previous)
+/*: 
+ [Previous](@previous)
  ## Practice 1
  Fill Out the following `init` `functions`.
  */
