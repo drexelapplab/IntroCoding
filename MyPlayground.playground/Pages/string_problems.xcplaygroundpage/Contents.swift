@@ -12,5 +12,5 @@ var favoriteColor = <#favoriteColor#>
  \
  the string should look something like `"Hello, my name is John Doe and my favorite color is Red."`
  */
-var introduction = ""
+var intro = ""
 //: [Next](@next)

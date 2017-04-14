@@ -14,7 +14,7 @@ var yourNumbers = [88, 53, 51, 36, 85, 58, 17, 43, 89, 1]
 func sum (array: [Int]) -> Int {
     var currentSum = 0
     for i in 0...array.count-1 {
-        currentSum += array[i]
+        currentSum += array[i] //add each element to sum
     }
     return currentSum
 }
@@ -27,8 +27,8 @@ sum (array: yourNumbers)
 func max (array: [Int]) -> Int {
     var currentMax = array[0]
     for i in 1...array.count-1 {
-        if currentMax < array[i] {
-            currentMax = array[i]
+        if currentMax < array[i] { //if the current largest value is smaller than the next value in the array
+            currentMax = array[i] //assign the current largest value to the new one.
         }
     }
     return currentMax

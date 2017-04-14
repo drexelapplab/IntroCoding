@@ -33,9 +33,9 @@ c = 10
  ## Other Datatypes
  When defining a `double` we need to make sure there is a decimal point in the value.
  */
-var pi:Double = 3.14159265359
+var pi = 3.14159265359
 /*:
- We can think of `Doubles` as numbers with decimals and `Ints` and numbers without decimals. So while every `Int` can be represented as a `Double` not every `Double` can be an `Int`. `Doubles` take up twice the memory of an `Int`. So if the decimals are not needed, it is best to use `Ints` so you can have more of them. 
+ We can think of `Doubles` as numbers with decimals and `Ints` and numbers without decimals. So while every `Int` can be represented as a `Double` not every `Double` can be an `Int`. `Doubles` take up twice the memory of an `Int`. So if the decimals are not needed, it is best to use `Int` so you can have more of them.
  ## Changing Datatypes
  If we ever want to switch between a `Double` and an `Int`, or any `datatype` for that matter, we can `cast` them as another `datatype`. `Casting` means to change a `variable` of one `datatype` to another `dataype`. This is done with the following instruction.
  ````
@@ -43,10 +43,10 @@ var pi:Double = 3.14159265359
  ````
  `(Datatype)` is any `datatype` and `(<variable>)` is any `variable` inside parenthesis.
  */
-Int (pi)
+Int (pi) // datatype is Int and <variable> is pi
 /*:
  - Note:
- Notice how `Int (pi)` results in 3. When a `Double` is casted to an `Integer` it is truncated. Which means that any numbers following the decimal point are removed.
+ Notice how `Int (pi)` results in 3. When a `Double` is casted to an `Int` it is truncated. Which means that any numbers following the decimal point are removed.
  */
 Double (Int (pi)) //confused?
 var r = Int (pi) //The computer will calculate the inside first.

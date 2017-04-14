@@ -6,8 +6,10 @@
 var age = <#your age#>
 var canVote:Bool
 
+<#if-statement#>
+
 /*:
- ## Problem 2
+ ## Practice 2
  Write a series of if-else-statements to determine the corresponding letter grade to a user’s `score`.
  \
  `A` for 100-90
@@ -21,7 +23,7 @@ var canVote:Bool
  `F` for 59 and below
  */
  var letterGrade:String
- var score = 85
+ var score = 85 //change score around to see how well your code works.
 
 
 //: [Next](@next)

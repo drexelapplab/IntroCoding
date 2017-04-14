@@ -25,12 +25,10 @@ var names = [name1, name2, name3, name4]
 /*:
  You can access each `element` inside an `array` with the following command. `array[index]`.
  */
-names[0]
-names[1]
-names[3]
+names[0] //change the index to see what happens.
 /*:
  - Note:
-  Remember that `index` starts at 0. so the first `element` is at `[0]` and the second `element` is at `[1]` and so on...
+  Remember that `index` starts at 0. so the first `element` is at `0` and the second `element` is at `1` and so on...
  \
  The most common mistake made with `arrays` is forgetting that the `index` start at 0.
  */

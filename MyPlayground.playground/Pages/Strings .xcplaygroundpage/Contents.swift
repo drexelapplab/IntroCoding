@@ -12,7 +12,7 @@ var gibberish = "fawpwndufvq"
 /*:
  `Strings` can be added together but they cannot be subtracted, multiplied, or divided.
  */
-var fullName:String = firstName + lastName
+var fullName = firstName + lastName
 /*:
  Notice how there is no space inbetween the first and last name, we can fix that by adding a space between them.
  */

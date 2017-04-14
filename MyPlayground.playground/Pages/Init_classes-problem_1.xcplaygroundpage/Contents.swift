@@ -1,7 +1,7 @@
 import Foundation
 /*: [Previous](@previous)
  ## Practice 1
- Fill Out the following `init functions`.
+ Fill Out the following `init` `functions`.
  */
 class Time {
     var seconds:Double

@@ -4,7 +4,7 @@ import Foundation
  # If-Statements
  
  ---
- The if-statement reads allows us to control the flow of our code. We can skip some parts of it and execute other parts only when needed. Without if-statements, programs would run the same way every time. This is the structure of an if-statement.
+ The if-statement allows us to control the flow of our code. We can skip some parts of it and execute other parts only when needed. Without if-statements, programs would run the same way every time. Here is the structure of an if-statement.
  ````
  if (<condition>) {
     (code)
@@ -20,6 +20,7 @@ if (b > a) { //try swapping > with <
 }
 
 /*:
+ ## If-else-statements
  If we want to do something when the condition is `false`, then we need to add an `else` to the if-statement. This is called an if-else-statement.
  ````
  if (<condition>) {
@@ -28,7 +29,7 @@ if (b > a) { //try swapping > with <
     (code2)
  }
  ````
- The if-else-statement
+ The if-else-statement will run `(code)` if `<condition>` is `true` and `(code2)` if `<condition>` is `false`.
  */
 if (a == b) {
     c = "\(a) == \(b)"
@@ -37,6 +38,7 @@ if (a == b) {
 }
 c
 /*:
+ ## if-else-if-...-statements
  If we are checking for several conditions at once, we can chain if-else-statements together. This way we can check for several cases at once.
  ````
  if (<condition>) {
@@ -48,7 +50,7 @@ c
  }
  ````
  */
-a = 10
+a = 10 //change a to see how c changes. 
 if (a < b){
     c = "\(a) < \(b)"
 } else if (a > b) {

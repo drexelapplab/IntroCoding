@@ -14,7 +14,7 @@ import Foundation
  \
  `/` : Division
  */
-var a = 10
+var a = 17
 var b = 3
 a + b
 a - b
@@ -31,12 +31,13 @@ a / b
 /*:
  We can get the actual answer in several ways.
  */
-Double(a) / Double (b) //convert both to doubls
+Double(a) / Double (b) //convert both to doubles
 var c = 10.0 //make double versions of the numbers
 var d = 3.0
-c / d
-Double (a / b) //confused? 
-var r = a / b //The computer will calculate the inside first 
+c / d //now we get the right answer
+
+Double (a / b) //confused?
+var r = a / b //The computer will calculate the inside first.
 Double (r) // and then calculate the outside. 
 
 

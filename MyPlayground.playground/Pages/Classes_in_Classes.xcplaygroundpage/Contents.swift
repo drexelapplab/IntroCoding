@@ -15,7 +15,7 @@ class Person {
     }
 }
 class Appartment {
-    var tenant:Person
+    var tenant:Person //property that is another class
     var appNumber:Int
     init (number:Int, withTenant:Person) {
         appNumber = number
@@ -28,4 +28,3 @@ var myAppartment = Appartment (number: 1337, withTenant: me)
 var newTenant = Person (withName: "Adam Smith", andAge: 25)
 myAppartment.tenant = newTenant
 
-//: [Next](@next)

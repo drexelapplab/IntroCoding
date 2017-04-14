@@ -23,5 +23,8 @@ sum
  */
 var n = 5
 var countdown = ""
+for <#item#> in <#range#> {
+    <#code#>
+}
 
 //: [Next](@next)

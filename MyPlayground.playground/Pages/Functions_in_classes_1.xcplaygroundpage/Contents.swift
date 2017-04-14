@@ -7,9 +7,9 @@ import Foundation
  Here is a `class` called `Rectangular_Prism` with a few `properties` and an `object` called `box`.
  */
 class Rectangular_Prism {
-    var height = 0
-    var length = 0
-    var width = 0
+    var height:Int = 0
+    var length:Int = 0
+    var width:Int = 0
 }
 var box = Rectangular_Prism ()
 box.height = 12
@@ -37,7 +37,7 @@ surfaceArea(box: box)
  */
 class Cube {
     var length:Int = 0
-    func volume () -> Int {
+    func volume () -> Int { //don't need parameters
         return length * length * length
     }
     func surfaceArea () -> Int {

@@ -10,7 +10,7 @@ import Foundation
  As you can see, managing all of this information can get complicated very fast. Computers, on the other hand, are built to do this(so we don't have too!).
  \
  If we want to have a computer remember something for us, we need to create a `variable`. A `variable` is a piece of memory that contains a value.
- ## Variable Creation
+ ## Variables
  We tell a computer to remember a `variable` like this.
  ````
  var (name) = (value)
@@ -27,7 +27,7 @@ import Foundation
  \
  \- start with numbers.
  \
- `(value)` can be any value. values can be words/phrases in quotes or numbers.
+ `(value)` can be any value. For now, values can be words/phrases in quotes or numbers.
  - - - 
  Here are a few `variables`. feel free to mess around with them.
  */
