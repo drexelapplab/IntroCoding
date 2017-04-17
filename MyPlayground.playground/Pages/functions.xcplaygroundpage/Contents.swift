@@ -4,16 +4,16 @@ import Foundation
  # Functions
  
  ---
- Inches are converted to meters by multiplying the number of inches by `0.0254`. We can manually type this conversion out each time we wanted to convert inches to meters or we could use a `function` instead. A `function` is a task that we tell the computer to remember. `Functions` are great because it lets us re-use code. Here is how you tell the computer to remember a `function`.
+ Lets say we want to convert severals measurements in inches to meters. Inches are converted to meters by multiplying the number of inches by `0.0254`. We can manually type this conversion out each time we wanted to convert inches to meters or we could use a `function` instead. A `function` is a task that we tell the computer to remember. `Functions` are great because it lets us re-use code. Here is how you tell the computer to remember a `function`.
  ````
  func (functionName) (<parameters>) -> (returntype) {
     (code)
     return ...
  }
  ````
- `Parameter`s are values the `function` needs to complete its task. We define `parameters` as `(name):(datatype)` and separate them with commas. It is important to remember that every `parameter` cannot be changed. If you want a `function` that changes the value of a `variable` you will need to `return` the new value.
+ `<Parameters>` are values the `function` needs to complete its task. We define `parameters` as `(name):(datatype)` and separate them with commas. It is important to remember that a `parameter` cannot be changed inside the `function`. If you want a `function` that changes the value of a `variable` you will need to `return` the new value.
  \
- The `returntype` is optional and is used when you want the `function` to give you a value back. `returntype` is the `datatype` of what the `function` will give you after execution. If you are using a `returntype` your `function` **must** return something. Here is how you would make a `function` without a `returntype`.
+ The `returntype` is optional and is used when you want the `function` to give you a value back. `returntype` is the `datatype` of what the `function` will give you after execution. If you are using a `returntype` your `function` **must** return something. If you want a `function` without a `returntype` then you would make it like this.
  ````
  func (functionName) (<parameters>) {
     (code)
@@ -21,6 +21,7 @@ import Foundation
  ````
  Here is a `function` that converts inches to meters.
  */
+//func (FunctionName) (<parameters>) -> (returntype)
 func InchestoMeters (inches:Double) -> Double {
     return inches * 0.0254
 }
@@ -49,7 +50,6 @@ func abs (a:Int) -> Int {
 abs (10)
 abs (-10)
 abs (0)
-
 /*:
  [Next](@next)
  */

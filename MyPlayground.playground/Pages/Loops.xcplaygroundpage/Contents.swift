@@ -79,5 +79,5 @@ isEven
 /*:
  This example looks to determine if a number is odd or even. See if you can figure out why this works.
  \
- [Next](@next)
+ [Next - Loop Practice](@next)
  */

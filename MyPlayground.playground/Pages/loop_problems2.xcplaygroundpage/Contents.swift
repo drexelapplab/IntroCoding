@@ -10,4 +10,4 @@ var countdown = ""
 for <#item#> in <#range#> {
     <#code#>
 }
-//: [Next](@next)
+//: [Next - Arrays](@next)

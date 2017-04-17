@@ -24,16 +24,16 @@ var a = 10
  var (name):(datatype)           //without value
  ````
  */
-var b:Int = 3
-var c:Int
+var b:Int = 3 //rarely used.
+var c:Int //helps us clarify the datatype of c.
 c = 10
 
 /*:
- In this example, we defined `b` as an `Int`. The basic `datatypes` are `Int`, `Double`, `String`, and `Bool`. For now we will work with `Ints` and `Doubles`.
+ In this example, we defined `b` and `c` as `Ints`. The basic `datatypes` are `Int`, `Double`, `String`, and `Bool`. For now we will work with `Ints` and `Doubles`.
  ## Other Datatypes
  When defining a `Double` we need to make sure there is a decimal point in the value.
  */
-var pi = 3.14159265359
+var pi = 3.14159265359 //pi is a double
 /*:
  We can think of `Doubles` as numbers with decimals and `Ints` and numbers without decimals. So while every `Int` can be represented as a `Double` not every `Double` can be an `Int`. `Doubles` take up twice the memory of an `Int`. So if the decimals are not needed, it is best to use `Int` so you can have more of them.
  ## Changing Datatypes
@@ -52,4 +52,4 @@ Double (Int (pi)) //confused?
 var r = Int (pi) //The computer will calculate the inside first.
 Double (r) //Then it will calculate the outside
 
-//:[Next](@next)
+//:[Next - Datatype Practice](@next)

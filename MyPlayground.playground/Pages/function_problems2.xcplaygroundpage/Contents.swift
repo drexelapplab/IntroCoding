@@ -2,9 +2,9 @@ import Foundation
 /*:
  [Previous](@previous)
  ## Practice 2
- Write a function that finds the average value in an `array`.
+ Write a `function` that finds the average value in an `array`.
  \
- Hint: look at `sum (array:)` in the previous page.
+ Hint: look at `sum (array:[Int])` on the `Functions` page.
  \
  You will know your code works when all of the test cases are `true`.
  */

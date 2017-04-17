@@ -34,4 +34,4 @@ a += 1
  - `*=` : multiplication
  - `/=` : division
  */
-//: [Next - Strings](@next)
+//: [Next - Math Practice](@next)

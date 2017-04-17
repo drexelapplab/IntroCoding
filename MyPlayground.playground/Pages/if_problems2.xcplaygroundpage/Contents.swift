@@ -18,4 +18,4 @@ var letterGrade:String
 var score = 85 //change score around to see how well your code works.
 <#write your code here#>
 
-//: [Next](@next)
+//: [Next - Loops](@next)

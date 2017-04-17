@@ -33,4 +33,4 @@ var dateOfBirth = String (month) + "/" + String (day) + "/" + String (year)
 var dateOfBirth2 = "\(firstName) was born on \(dateOfBirth)."
 //:The `value` you insert does not have to be a `variable`. It can be numbers or expressions, just make sure it is all surrounding in parenthesis. 
 var math = "\(firstName) is \(2017-year) years old." //avoids casting
-//:[Next](@next)
+//:[Next - String Practice](@next)

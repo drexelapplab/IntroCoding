@@ -14,4 +14,4 @@ import Foundation
 
 //:Convert `n` to a `String`.
 
-//: [Next](@next)
+//: [Next - Math](@next)

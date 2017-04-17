@@ -8,4 +8,4 @@ var canVote:Bool
 
 <#write your if-statement here#>
 
-//: [Next](@next)
+//: [Next - More If-statement Practice](@next)

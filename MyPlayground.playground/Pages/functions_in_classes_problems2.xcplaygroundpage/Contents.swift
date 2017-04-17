@@ -4,11 +4,11 @@ import Foundation
  ## Practice 2
  Add the following functions to `Count`.
  \
- `increment ()` => add 1 to `count`
+ `increment ()` : This function should add `1` to `count`
  \
- `increment (by:Int)` => add `by` to `count`
+ `increment (by:Int)` : This function should add `by` to `count`
  \
- `reset ()` => set `count` to 0
+ `reset ()` : This function should set `count` to `0`.
  */
 class Counter {
     var count = 0
@@ -21,4 +21,4 @@ myCounter.increment ()
 myCounter.count == 12
 myCounter.reset ()
 myCounter.count == 0
-//: [Next](@next)
+//: [Next - Initializing Classes](@next)

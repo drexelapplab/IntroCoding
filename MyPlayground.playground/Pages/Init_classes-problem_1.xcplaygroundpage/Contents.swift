@@ -18,15 +18,6 @@ class Time {
     init (fromDays:Double){
         <#code#>
     }
-    init (fromWeeks:Double){
-        <#code#>
-    }
-    init (fromMonths:Double){
-        <#code#>
-    }
-    init (fromYears:Double){
-        <#code#>
-    }
 /*:
  Fill out the following conversion `functions`.
  */
@@ -42,19 +33,20 @@ class Time {
     func inDays () -> Double{
         <#code#>
     }
-    func inWeeks () -> Double{
-        <#code#>
-    }
-    func inMonths () -> Double{
-        <#code#>
-    }
-    func inYears () -> Double{
-        <#code#>
-    }
 }
 /*:
- How many seconds are in 3 months? 1 year? 7 weeks? 3 days?
+ You will know your code works when all of the test cases are `true`.
  */
+var time = Time (fromDays: 3.0)
+time.inSeconds () == 259200.0
+time = Time (fromHours: 7.0)
+time.inSeconds () == 25200.0
+time = Time (fromMinutes: 12.0)
+time.inSeconds () == 720.0
+time = Time (fromSeconds: 345600.0)
+time.inDays () == 4.0
+time = Time (fromHours: 72.0)
+time.inDays () == 3.0
 
 
-//: [Next](@next)
+//: [Next - Classes in Classes](@next)

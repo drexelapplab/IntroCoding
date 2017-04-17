@@ -42,7 +42,6 @@ Double (a / b) //confused?
 var r = a / b //The computer will calculate the inside first.
 Double (r) // and then calculate the outside. 
 
-
 /*:
- [Next](@next)
+ [Next - More Math](@next)
  */

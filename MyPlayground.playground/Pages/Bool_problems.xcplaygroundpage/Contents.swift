@@ -18,4 +18,4 @@ var y = 7
 
 //:`x` is larger than `y` but not larger than `2 * y`.
 
-//: [Next](@next)
+//: [Next - More Boolean Practice](@next)

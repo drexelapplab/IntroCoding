@@ -25,7 +25,7 @@ sum (array: yourNumbers)
  Here is how we would find the largest(max) value in an array.
  */
 func max (array: [Int]) -> Int {
-    var currentMax = array[0]
+    var currentMax = array[0] //starting number
     for i in 1...array.count-1 {
         if currentMax < array[i] { //if the current largest value is smaller than the next value in the array
             currentMax = array[i] //assign the current largest value to the new one.
@@ -38,9 +38,8 @@ max (array: myNumbers)
 max (array: yourNumbers)
 /*:
  - Note: 
- Our starting value is the first element in the array. This is because if we start with `currentMax = 0` there is a chance that `0` is larger than anything in the `array`. Because we already have the value of `array[0]` we do not need to include it in our loop so our range is `1...array.count-1`.
+ Our starting value is the first `element` in the `array`. This is because if we start with `currentMax = 0` there is a chance that `0` is larger than anything in the `array`. So we start with `array[0]` to ensure that only numbers in `array` are considered.
+ \
+ Because we already have the value of `array[0]` we do not need to include it in our loop so our range is `1...array.count-1`. Using the range `0...array.count-1` will still `return` the correct result but has the needless comparison of `array[0] < array[0]` which can be skipped.
  */
-
-
-
-//: [Next](@next)
+//: [Next - Function Practice](@next)

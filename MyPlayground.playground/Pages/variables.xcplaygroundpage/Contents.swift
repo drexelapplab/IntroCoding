@@ -27,7 +27,7 @@ import Foundation
  \
  \- start with numbers.
  \
- `(value)` can be any value. For now, values can be words/phrases in quotes or numbers.
+ `(value)` can be any value. For now, values can be words/phrases surrounded by quotes or numbers.
  - - - 
  Here are a few `variables`.
  */

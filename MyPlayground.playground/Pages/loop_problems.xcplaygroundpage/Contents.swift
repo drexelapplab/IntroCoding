@@ -9,6 +9,6 @@ for i in <#range#> {
     sum += i
 }
 sum
-/*:Now change the loop to add the numbers from `25 to 50` instead.
- [Next](@next)
+/*:Now change the loop to add up the numbers from `25 to 50` instead.
+ [Next - More Loop Practice](@next)
  */

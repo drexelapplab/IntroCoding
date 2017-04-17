@@ -61,4 +61,4 @@ noHandleBars || ready
 var hasBike = true
 ready || (hasBike && noHandleBars)
 
-//: [Next](@next)
+//: [Next - Boolean Practice](@next)

@@ -15,21 +15,22 @@ import Foundation
  ````
  After `init` is run, every `property` **must** have a value.
  - Note:
- Remember that each property must have a value when created. `Person ()` will not create a `Person` object in the example below. This is because there is no default values for `name` and `age`. You can fix this by writing another `init` function that takes no `parameters` and assigns default values in it or by assigning default values like in the previous `class` examples.
+ Remember that each `property` must have a value when created. `Person ()` will not create a `Person` object in the example below. This is because there are not default values for `name` and `age`. You can fix this by writing another `init` function that takes no `parameters` and assigns default values or by assigning default values when defining the `property`.
  */
 class Person {
     var name:String //if we have init, we do not need a default value
     var age:Int
-    init (yourName:String, yourAge:Int){ //looks like a function, right?
-        name = yourName
-        age = yourAge
+    //init looks like a function without a name or return type.
+    init (withName:String, andAge:Int){
+        name = withName
+        age = andAge
     }
 }
-var me = Person (yourName:"John", yourAge:33) //Here is how you use init.
+var me = Person (withName:"John", andAge:33) //Here is how you use init.
 /*:
  There is no limit to the number of `init` `functions` a `class` can have. Just make sure each one is unique.
  \
- The following `class` is built to help make unit conversions for weight easy. It can `initialize` with several different units.
+ The following `class` is built to help make unit conversions for weight easy. It can be `initialized` with several different units.
  */
 class Weight {
     var grams:Double
@@ -59,4 +60,4 @@ metricTon.inMG ()
 metricTon.inPounds ()
 
 
-//: [Next](@next)
+//: [Next - Initializing Classes Practice](@next)

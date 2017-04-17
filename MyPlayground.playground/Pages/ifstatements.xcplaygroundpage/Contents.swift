@@ -39,13 +39,13 @@ if (a == b) {
 c
 /*:
  ## if-else-if-...-statements
- If we are checking for several conditions at once, we can chain if-else-statements together. This way we can check for several cases at once.
+ If we are checking for several conditions at once, we can chain if-else-statements together. This way we can check for several cases at once. If-else-statements can be chained indefinitely and do not always need to end in `else`.
  ````
  if (<condition>) {
     (code)
  } else if (<condition>) {
     (code)
- } else {
+ } ... else {
     (code)
  }
  ````
@@ -59,4 +59,4 @@ if (a < b){
     c = "\(a) == \(b)"
 }
 c
-//: [Next](@next)
+//: [Next - If-statements Practice](@next)
