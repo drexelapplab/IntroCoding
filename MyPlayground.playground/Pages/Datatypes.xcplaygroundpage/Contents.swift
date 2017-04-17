@@ -4,7 +4,7 @@ import Foundation
  # Datatypes 
  
  ---
- Lets start by making a variable that contains a number.
+ Lets start by making a `variable` that contains a number.
  when we enter: 
  ````
  var (name) = (value)

@@ -11,10 +11,10 @@ var b = 3
 var c = 5
 a * b + c
 c + a * b
-//:If we want to force a certain order, we can put what needs to be done first inside parenthesis.
+//:If we want to force a certain order, we can use parenthesis.
 (c + a) * b
 /*:
- `Variables` can also be assigned to arithmetic expressions.
+ We can also store the result of an arithmetic expression in a `variable`.
  */
 var d = (c + a) / b
 /*:

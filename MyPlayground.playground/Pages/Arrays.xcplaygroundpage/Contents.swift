@@ -14,13 +14,13 @@ var name4 = "Fred"
 /*:
  Having to create a new `variable` for each `name` can get tedious and requires us to manually create a new `variable` each time we want to store another `name`. Instead of using several different `variables` we can use a structure called an `array` to store all of them in one place.
  \
- An `array` is a collection of `variables`. An individual `variable` inside an `array` is called an `element`. You create an `array` similar to a `variable`, you just need to surround the `values` in `[brackets]`. You can create an array the follow ways.
+ An `array` is a collection of `variables`. An individual `variable` inside an `array` is called an `element`. You create an `array` similar to a `variable`, you just need to surround the `values` in `[brackets]`. You can create an `array` the follow ways.
  ````
  var (name) = [values]
  var (name):[Dataype] = [values]
  var numbers = [1, 2, 3, 4, 5] //example array
  ````
- Here is an array of names from the people listed above.
+ Here is an `array` of the names listed above.
  */
 var names = [name1, name2, name3, name4]
 /*:

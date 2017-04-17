@@ -18,7 +18,7 @@ var c = ""
 if (b > a) { //try swapping > with <
     c = "\(b) > \(a)"
 }
-
+c
 /*:
  ## If-else-statements
  If we want to do something when the condition is `false`, then we need to add an `else` to the if-statement. This is called an if-else-statement.

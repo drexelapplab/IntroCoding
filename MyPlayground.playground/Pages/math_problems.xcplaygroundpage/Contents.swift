@@ -13,6 +13,6 @@ var a = 1.3035
 var b = 1.4142
 //: Add 15 to `b`. then divide that number by 2. multiply the result by 3. assign the answer to a new `variable` named `c`. Did you get `24.6213`?
 
-//: Subtract `c` from `a` and assign the result to `a`. `a` should be `15.5382`.
+//: Subtract `c` from `a` and assign the result to `a`. `a` should now be `15.5382`.
 
 //: [Next - Strings](@next)
