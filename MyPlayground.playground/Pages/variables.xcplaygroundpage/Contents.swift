@@ -15,7 +15,7 @@ import Foundation
  ````
  var (name) = (value)
  ````
- This tells the computer to remember `name` whose value is `value`. Now, whenever the computer sees `name` in code, it will remember it as its `value`.
+ `var` is the keyword that tell the computer to make a `variable` called `name`. If there is a following `value` then remember the `variable` as having the corresponding `value`.
  - Note: 
  `(name)` means that you can use any `variable` name here. `Variable` names can be anything but cannot include the following:
  \
@@ -38,9 +38,9 @@ var name = "John"
  */
 age = 33
 /*:
- Try creating a `variable` in the space below named `dog` that has value "Spot".
+ Try creating a `variable` in the space below named `dog` that has value `"Spot"`.
  */
-
+//create your variable here.
 /*:
  when you are ready to continue, press [Next](@next).
  */

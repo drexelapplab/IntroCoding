@@ -24,32 +24,40 @@ var a = 10
  var (name):(datatype)           //without value
  ````
  */
-var b:Int = 3 //rarely used.
-var c:Int //helps us clarify the datatype of c.
+var b:Int = 3 //This is rarely used because the datatype is ussually obvious.
+var c:Int //You only need to clarify the datatype if you are not immediately assigning it.
 c = 10
 
 /*:
- In this example, we defined `b` and `c` as `Ints`. The basic `datatypes` are `Int`, `Double`, `String`, and `Bool`. For now we will work with `Ints` and `Doubles`.
- ## Other Datatypes
+ Here are the basic `datatypes`.
+ ````
+ var i = 6 //This is an Int, a number with no decimal.
+ var d = 6.5 // This is a Double, a number with a decimal.
+ var s = "hello" //This is a String, letters or numbers enclosed in "quotes".
+ var b = true //This is a Bool, it has a value of true or false
+ ````
+ ## Doubles
  When defining a `Double` we need to make sure there is a decimal point in the value.
  */
-var pi = 3.14159265359 //pi is a double
+var pi = 3.14159265359 //Here is an example of a Double, pi.
 /*:
- We can think of `Doubles` as numbers with decimals and `Ints` and numbers without decimals. So while every `Int` can be represented as a `Double` not every `Double` can be an `Int`. `Doubles` take up twice the memory of an `Int`. So if the decimals are not needed, it is best to use `Int` so you can have more of them.
  ## Changing Datatypes
  If we ever want to switch between a `Double` and an `Int`, or any `datatype` for that matter, we can `cast` them as another `datatype`. `Casting` means to change a `variable` of one `datatype` to another `dataype`. This is done with the following instruction.
  ````
  (Datatype) (<variable>)
+ var s = 15
+ String (s) //will convert s, an Int, to the String "15"
  ````
  `(Datatype)` is any `datatype` and `(<variable>)` is any `variable` inside parenthesis.
  */
-Int (pi) // datatype is Int and <variable> is pi
+Int (pi) // datatype is Int and <variable> is pi.
 /*:
  - Note:
  Notice how `Int (pi)` results in 3. When a `Double` is casted to an `Int` it is truncated. Which means that any numbers following the decimal point are removed.
  */
+//Here is an example of something cool.
 Double (Int (pi)) //confused?
 var r = Int (pi) //The computer will calculate the inside first.
-Double (r) //Then it will calculate the outside
+Double (r) //Then it will calculate the outside.
 
 //:[Next - Datatype Practice](@next)

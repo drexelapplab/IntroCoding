@@ -14,11 +14,12 @@ var name4 = "Fred"
 /*:
  Having to create a new `variable` for each `name` can get tedious and requires us to manually create a new `variable` each time we want to store another `name`. Instead of using several different `variables` we can use a structure called an `array` to store all of them in one place.
  \
- An `array` is a collection of `variables`. An individual `variable` inside an `array` is called an `element`. You create an `array` similar to a `variable`, you just need to surround the `values` in `[brackets]`. You can create an `array` the follow ways.
+ An `array` is a collection of `variables`. An individual `variable` inside an `array` is called an `element`. You create an `array` similar to a `variable`, you just need to surround the `value(s)` in `[brackets]`. You can create an `array` the follow ways.
  ````
  var (name) = [values]
- var (name):[Dataype] = [values]
  var numbers = [1, 2, 3, 4, 5] //example array
+ var (name):[Dataype] = [values]
+ var names:[String] = ["John", "Jane", "Sam", "Fred"]
  ````
  Here is an `array` of the names listed above.
  */
@@ -53,6 +54,13 @@ listOfPeople
  - Note:
  The range we are using is `0...names.count-1` because the `array` `index` starts at `0`.
  */
+//here is how we would add up all the names in reverse order.
+listOfPeople = ""
+for i in 0...names.count-1 {
+    listOfPeople += "\(names[names.count-1 - i]) "
+}
+listOfPeople
+
 /*:
  [Next - Array Practice](@next)
  */

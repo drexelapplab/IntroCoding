@@ -12,7 +12,7 @@ sumOfNumbersFrom1To5 += 3
 sumOfNumbersFrom1To5 += 4
 sumOfNumbersFrom1To5 += 5
 /*:
- It can get tedius to write the same line of code over and over again and we also might not know how many times we want to do something. Luckily, there are for-loops. The for-loop is a structure that lets us repeat code a specific number of times. Here is the structure of a for-loop.
+ It can get tedius to write the same line of code over and over again and we also might not know how many times we want to do something. Luckily, there are for-loops. The for-loop is a structure that lets us repeat code a specified number of times. Here is the structure of a for-loop.
  ````
  for (item) in (range) {
     (code)

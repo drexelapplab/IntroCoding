@@ -8,11 +8,11 @@ import Foundation
  ## Keywords
  This is a `keyword`. It indicates that the word is important and you need to know it.
  ## Code
- This is an example block of code.
  ````
+ //This is an example block of code.
  var example = "this is an example block of code"
  ````
- Below is an example of a block of code. You can edit these if you want too; just do not expect it to always work. Your playground will try to help you out by showing you information about the code you wrote. This information can be found on the right side of the page and sometimes in a box below the line of code.
+ Below is an example of a block of code. You can edit these if you want; just do not expect it to always work. Your playground will try to help you out by showing you information about the code you wrote. This information can be found on the right side of the page and sometimes in a box below the line of code.
  */
  var str = "Hello, playground"
 //:Below is a space to write code. You can tell by the line number on the left side of the page. Your playground will try to run any code you write here. You can add more lines by pressing `enter`.

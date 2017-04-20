@@ -29,7 +29,7 @@ a = 5
 a = a + 1
 a += 1
 /*:
- `+=` is called a Compound Assignment Operator. When the computer is given the instruction `a += 1` it will interpret it as `a = a + 1`. They both produce the same result so it is up to you which to use. There are also Compound Assignment Operators for subtraction, multiplication, and division as well.
+ `+=` is called a **Compound Assignment Operator**. When the computer is given the instruction `a += 1` it will interpret it as `a = a + 1`. They both produce the same result so it is up to you which to use. There are also **Compound Assignment Operators** for subtraction, multiplication, and division as well.
  - `-=` : subtraction
  - `*=` : multiplication
  - `/=` : division

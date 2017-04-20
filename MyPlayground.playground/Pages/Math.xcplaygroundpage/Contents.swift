@@ -4,7 +4,7 @@ import Foundation
  # Arithmetic Operators
  
  ---
- The Arithmetic operators are:
+ The **Arithmetic Operators** are:
  - `+` : Addition
  - `-` : Subtraction
  - `*` : Multiplication
