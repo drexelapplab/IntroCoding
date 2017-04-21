@@ -10,6 +10,10 @@ import Foundation
     (code)
     return ...
  }
+ //example 
+ func example (number:Int) -> Int {
+    return number //why would this exist?
+ }
  ````
  `<Parameters>` are values the `function` needs to complete its task. We define `parameters` as `(name):(datatype)` and separate them with commas. It is important to remember that a `parameter` cannot be changed inside the `function`. If you want a `function` that changes the value of a `variable` you will need to `return` the new value.
  \
@@ -18,6 +22,10 @@ import Foundation
  func (functionName) (<parameters>) {
     (code)
  }
+ //example 
+ func example (name:String) {
+    var newName = name + " is an example"
+ }
  ````
  Here is a `function` that converts inches to meters.
  */
@@ -25,7 +33,7 @@ import Foundation
 func InchestoMeters (inches:Double) -> Double {
     return inches * 0.0254
 }
-InchestoMeters (inches: 39.5) //try changing the parameter to change the result.
+InchestoMeters (inches: 39.37007874015748) //try changing the parameter to change the result.
 InchestoMeters (inches: 200.0)
 InchestoMeters (inches: 12.0)
 /*:

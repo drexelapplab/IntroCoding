@@ -4,7 +4,7 @@ import Foundation
  # Class-ception 
  
  ---
- We can have `classes` with `properties` that are also `classes`. This lets us describe situations that would otherwise be complicated.
+ We can have `classes` with `properties` that are also `classes`. This lets us describe `objects` contain other complex `datatypes`. 
  */
 class Person {
     var name:String
