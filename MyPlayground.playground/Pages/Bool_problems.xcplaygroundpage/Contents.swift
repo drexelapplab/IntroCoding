@@ -1,4 +1,5 @@
-/*: 
+import Foundation
+/*:
  [Previous](@previous)
  ## Boolean Practice 1
  What is the issue with the following code?

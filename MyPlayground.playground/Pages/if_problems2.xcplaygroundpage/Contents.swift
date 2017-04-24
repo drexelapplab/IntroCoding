@@ -14,7 +14,7 @@ import Foundation
  \
  "F" for 59 and below
  */
-var letterGrade:String
+var letterGrade:String//set this to the letter grade for the variable score, listed below. 
 var score = 85 //change score around to see how well your code works.
 <#write your code here#>
 

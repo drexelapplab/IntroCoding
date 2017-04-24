@@ -1,6 +1,6 @@
-//: [Previous](@previous)
 import Foundation
 /*:
+ [Previous](@previous)
  # Function Practice 1
  Write a `function` that converts a Fahrenheit to Celsius. Your function should a `Double` named `fahrenheit` and return a `Double`. `Celsius = (Fahrenheit-32) * (5/9)`.
  \

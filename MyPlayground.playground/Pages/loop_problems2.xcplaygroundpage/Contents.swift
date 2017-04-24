@@ -1,3 +1,4 @@
+import Foundation
 /*:
  [Previous](@previous)
  ## Loop Practice 2

@@ -1,3 +1,4 @@
+import Foundation
 /*:
  [Previous](@previous)
  # Pratice 2

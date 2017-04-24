@@ -56,7 +56,7 @@ sum
  a...b
  1...10 // gives us a range of numbers between, and including, 1 and 10.
  ````
- `a` is the lower bound of the `range` and `b` is the upper bound of the `range`. `a` cannot be larger than `b` and the `range` will be empty if `a` and `b` are equal. 
+ `a` is the lower bound of the `range` and `b` is the upper bound of the `range`. `a` cannot be larger than `b` and the `range` will be empty if `a` and `b` are equal.
  ## While Loops
  If there is no way to tell how many times we will need to run a loop we can use a while-loop instead. A while-loop is a mix between an if-statement and a for-loop.
  ````

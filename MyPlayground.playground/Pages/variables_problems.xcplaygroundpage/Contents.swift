@@ -2,7 +2,7 @@ import Foundation
 /*: 
  [Previous](@previous)
  ## Practice 
- Tell the computer to remember your first name in a `variable` named `firstName`.
+ Tell the computer to remember your first name in a `variable` named `firstName`. You will know your code works when your first name is displayed on the right side-bar.
  */
 //your code goes here
 //:Tell the computer to remember your last name in a `variable` named `lastName`.

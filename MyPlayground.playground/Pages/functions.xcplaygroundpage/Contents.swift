@@ -33,7 +33,7 @@ import Foundation
 func InchestoMeters (inches:Double) -> Double {
     return inches * 0.0254
 }
-InchestoMeters (inches: 39.37007874015748) //try changing the parameter to change the result.
+InchestoMeters (inches: 39.37007874015748) //try changing the parameter.
 InchestoMeters (inches: 200.0)
 InchestoMeters (inches: 12.0)
 /*:

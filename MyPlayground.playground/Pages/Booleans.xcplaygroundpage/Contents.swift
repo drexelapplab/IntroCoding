@@ -49,16 +49,16 @@ ready == c //and compare them
  !a     results in false
  ````
  */
-var noHandleBars = true
-noHandleBars && ready
-ready = false
-noHandleBars || ready
-!ready
-!noHandleBars
+var IamTall = true
+var IamShort = false
+IamTall && IamShort
+IamTall || IamShort
+!IamTall
+!IamShort
 /*:
  If we want to put multiple `Bool` operators together we need to use parenthesis to define order of operations. Otherwise your computer will not know which one to do first. 
  */
-var hasBike = true
-ready || (hasBike && noHandleBars)
+var canReach = true
+canReach && (IamTall || !IamShort)
 
 //: [Next - Boolean Practice](@next)
