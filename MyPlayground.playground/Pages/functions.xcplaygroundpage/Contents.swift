@@ -12,7 +12,7 @@ import Foundation
  }
  //example 
  func example (number:Int) -> Int {
-    return number //why would this exist?
+    return number //this is a pointless function
  }
  ````
  `<Parameters>` are values the `function` needs to complete its task. We define `parameters` as `(name):(datatype)` and separate them with commas. It is important to remember that a `parameter` cannot be changed inside the `function`. If you want a `function` that changes the value of a `variable` you will need to `return` the new value.

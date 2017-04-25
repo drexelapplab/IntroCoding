@@ -62,5 +62,7 @@ for i in 0...names.count-1 {
 listOfPeople
 
 /*:
+ How would we re-write the loop so there is no " " at the end of listOfPeople?
+ \
  [Next - Array Practice](@next)
  */
